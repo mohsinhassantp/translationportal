@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">漫游通 X</string>
+    <string name="slide_1_title">什么是漫游通X？</string>
+    <string name="slide_2_title">开启免费流量</string>
+    <string name="slide_2_desc">"推荐给朋友下载以获得免费流量！ "</string>
+    <string name="slide_3_title">在超过100个国家使用漫游</string>
+    <string name="slide_3_desc">在全球拥有580家电信运营商合作伙伴</string>
+    <string name="slide_1_desc">只需一次性贴上便可以开启全球漫游！</string>
+    <string name="activity_login_login">登录或注册</string>
+    <string name="activity_login_agree">注册或登录后表示用户同意我们的服务与协议条款。</string>
+    <string name="activity_login_email_login">使用电邮登入</string>
+    <string name="activity_login_email_btnLoginContinue">继续</string>
+    <string name="activity_login_email_agree">"注册或登录后表示用户同意我们的服务与协议条款 "</string>
+    <string name="dialog_check_email_title">请查看您的邮箱</string>
+    <string name="dialog_check_sms_click">点击短信中的链接登录</string>
+    <string name="dialog_check_sms_not_received">没有收到短信?</string>
+    <string name="dialog_check_sms_resend">重发邮件</string>
+    <string name="activity_login_mobile_login">手机号登录</string>
+    <string name="activity_login_mobile_forgot">忘记密码?</string>
+    <string name="activity_login_mobile_btnContinue">登录</string>
+    <string name="error_pattern_email">邮箱无效</string>
+    <string name="error_pattern_mobile">电话号码无效</string>
+    <string name="fragment_home_your_balance">您的流量余额</string>
+    <string name="fragment_home_howtousefreedata">"如何使用赚取的免费流量？ "</string>
+    <string name="activity_get_starter_pack_select_btnProceed">确认</string>
+    <string name="activity_get_starter_pack_select_btnBack">❮ 获取开启包</string>
+    <string name="activity_data_usage_examples_data">流量</string>
+    <string name="activity_data_usage_examples_approximate">*上述示例为预估流量使用情况，具体流量使用情况可能有所不同。</string>
+    <string name="activity_data_usage_examples_btnBack">❮ 流量使用示例</string>
+    <string name="activity_get_starter_pack_shipping_add">添加运输地址</string>
+    <string name="activity_get_starter_pack_shipping_shipping">运输详情</string>
+    <string name="activity_get_starter_pack_shipping_etName">姓名</string>
+    <string name="activity_get_starter_pack_shipping_etAddress1">地址1</string>
+    <string name="activity_get_starter_pack_shipping_etAddress2">地址2</string>
+    <string name="activity_get_starter_pack_shipping_etCity">城市</string>
+    <string name="activity_get_starter_pack_shipping_etState">省</string>
+    <string name="activity_get_starter_pack_shipping_etPostCode">邮政编号</string>
+    <string name="activity_get_starter_pack_shipping_select_country">选择国家：</string>
+    <string name="activity_get_starter_pack_shipping_etMobileNumber">手机号</string>
+    <string name="activity_get_starter_pack_shipping_btnNext">继续</string>
+    <string name="activity_get_starter_pack_shipping_btnBack">❮ 订购启动包</string>
+    <string name="dialog_leave_page_title">离开此页</string>
+    <string name="dialog_leave_page_btnCancel">取消</string>
+    <string name="dialog_leave_page_btnOK">确定</string>
+    <string name="dialog_leave_page_question">确定要离开此页? 内容将不被保存。</string>
+    <string name="activity_get_starter_pack_summary_title">订单总结</string>
+    <string name="activity_get_starter_pack_summary_shipping_title">运输详情</string>
+    <string name="activity_get_starter_pack_summary_address_title">运输地址</string>
+    <string name="activity_get_starter_pack_summary_address_edit">编辑</string>
+    <string name="activity_get_starter_pack_summary_subtotal_title">小计</string>
+    <string name="activity_get_starter_pack_summary_discount_title">折扣</string>
+    <string name="activity_get_starter_pack_summary_btnApplyDiscount">使用折扣</string>
+    <string name="activity_get_starter_pack_summary_total_title">总计</string>
+    <string name="activity_get_starter_pack_summary_btnConfirmOrder">确认订单</string>
+    <string name="activity_get_starter_pack_summary_btnBack">❮  订单汇总</string>
+    <string name="dialog_apply_code_discount_title">使用优惠代码</string>
+    <string name="dialog_apply_code_discount_question">您有优惠代码吗？</string>
+    <string name="dialog_apply_code_discount_btnCancel">取消</string>
+    <string name="dialog_apply_code_discount_btnApply">使用代码</string>
+    <string name="dialog_apply_code_shipping_btnCancel">取消</string>
+    <string name="error_invalid_discount_code">请输入一个有效的优惠代码。</string>
+    <string name="fragment_coverage_travel_inspiration">来自TripAdvisor的旅游推荐</string>
+    <string name="fragment_status_get_pack">获得一个开启包以使用您的免费流量</string>
+    <string name="fragment_status_how">"如何使用？ "</string>
+    <string name="fragment_status_get_starter_pack">获取开启包</string>
+    <string name="fragment_status_already">已经拥有开启包？</string>
+    <string name="fragment_status_link_starter_pack">激活漫游通</string>
+    <string name="dialog_status_whygetpack_access">想要在超过100个国家使用漫游通X流量，您需要购买一个开启包（包含X微芯片）。</string>
+    <string name="dialog_status_whygetpack_attach">之后仅需将X微芯片贴在您的手机卡上即可开始漫游。</string>
+    <string name="dialog_status_whygetpack_btnOk">好的</string>
+    <string name="activity_scanner_onceyouvereceived">您收到了漫游通之后</string>
+    <string name="activity_scanner_btnScan">扫描条形码激活漫游通</string>
+    <string name="activity_scanner_btnBack">❮  激活漫游通</string>
+    <string name="fragment_status_not_connected">未连接</string>
+    <string name="fragment_status_switch_flexiroam">切换至漫游通X</string>
+    <string name="fragment_status_troubleshooting">故障排查</string>
+    <string name="fragment_status_contact_support">联系客服</string>
+    <string name="activity_troubleshooting_btnBack">❮  故障排查</string>
+    <string name="activity_troubleshooting_check_list">如果您不能够连接到网络，\n请检查下列核对表：</string>
+    <string name="activity_troubleshooting_switch">切换至漫游通X</string>
+    <string name="activity_troubleshooting_configure">配置APN设置？</string>
+    <string name="activity_troubleshooting_data">移动流量和数据漫游已打开？</string>
+    <string name="activity_troubleshooting_off_wifi">是否已经关闭WIFI？</string>
+    <string name="activity_troubleshooting_signal">您有良好的信号强度吗？</string>
+    <string name="activity_troubleshooting_connected">连接到我们的合作伙伴网络？</string>
+    <string name="activity_troubleshooting_supported">您是否在我们的覆盖国家？</string>
+    <string name="activity_turn_on_data_btnBack">故障排查</string>
+    <string name="activity_switch_network_switch">切换至漫游通X</string>
+    <string name="activity_switch_network_step_one">步骤一</string>
+    <string name="activity_switch_network_step_one_a">首先，检查您是否已经在SIM卡工具包中切换至Flexiroam X</string>
+    <string name="activity_switch_network_step_one_b">点击跳转至SIM工具包</string>
+    <string name="activity_switch_network_step_one_c">"若无法找到SIM tool kit，请在您的手机APP中找到工具包。 "</string>
+    <string name="activity_switch_network_step_two">步骤二</string>
+    <string name="activity_troubleshooting_check_list_title">核对表</string>
+    <string name="activity_login_email_hint">邮箱</string>
+    <string name="activity_login_country_question">请选择国家</string>
+    <string name="activity_guide_stick_microchip">张贴微芯片</string>
+    <string name="activity_guide_stick_microchip_details">如何将微芯片贴在您的SIM卡上？</string>
+    <string name="activity_guide_stick_microchip_mins">2分钟</string>
+    <string name="activity_guide_switchSim_details">如何切换至漫游通X和设置APN</string>
+    <string name="activity_guide_switchSim_mins">1分钟</string>
+    <string name="activity_guide_switchsim">切换Sim卡并且切换APN</string>
+    <string name="activity_guide_btnBack">❮  指南</string>
+    <string name="activity_apply_promo_code_btn">使用促销码</string>
+    <string name="activity_about_visit_website">访问 Flexiroam.com</string>
+    <string name="activity_apply_promo_code_btnBack">❮  促销</string>
+    <string name="activity_apply_promo_code_details">已有促销码？请在下方输入</string>
+    <string name="activity_apply_promo_code_enter">输入促销码</string>
+    <string name="activity_configure_apn_step_one">步骤一</string>
+    <string name="activity_configure_apn_btnBack">❮  故障排查</string>
+    <string name="activity_configure_apn_setting">配置APN设置？</string>
+    <string name="activity_configure_apn_switch">在做这一步之前请切换至Flexiroam X！</string>
+    <string name="activity_configure_apn_step_one_details">前往您的手机设置 > 移动网络/蜂窝网络 > APN</string>
+    <string name="activity_configure_apn_step_two">步骤二</string>
+    <string name="activity_configure_apn_step_two_details">创建/增加新的APN</string>
+    <string name="activity_configure_apn_step_three">步骤三</string>
+    <string name="activity_configure_apn_step_three_details">输入“flexiroam”作为名字和APN > 保存</string>
+    <string name="activity_configure_apn_step_four">步骤四</string>
+    <string name="activity_configure_apn_step_four_details">选择Flexiroam APN来开启</string>
+    <string name="activity_connect_partner_network_btnBack">❮  故障排查</string>
+    <string name="activity_connect_partner_network_connected">连接到我们的合作伙伴网络？</string>
+    <string name="activity_connect_partner_network_coverage">请检查覆盖范围来寻找我们在您目的地的合作伙伴网络</string>
+    <string name="activity_connect_partner_network_btnCheckCoverage">检查覆盖范围</string>
+    <string name="activity_hint_mobile">手机号码</string>
+    <string name="activity_hint_password">密码</string>
+    <string name="activity_hint_first_name">名字</string>
+    <string name="activity_hint_last_name">姓氏</string>
+    <string name="activity_login_country_btnContinue">继续</string>
+    <string name="activity_login_name_question">请输入您的姓名</string>
+    <string name="activity_login_name_btnContinue">下一步</string>
+    <string name="activity_login_mobile_forgot_pwd_title">忘记密码</string>
+    <string name="activity_login_mobile_forgot_pwd_btnContinue">请求恢复短信</string>
+    <string name="activity_referral_history_total">通过推荐赚取到的总流量</string>
+    <string name="activity_referral_history_btnBack">❮  推荐记录列表</string>
+    <string name="activity_about_appname">漫游通X</string>
+    <string name="activity_about_version">版本 %s</string>
+    <string name="activity_about_avoid">避免您在国外时的高昂漫游费用。</string>
+    <string name="activity_about_solution">漫游通是最新的漫游解决方式，您可以在出发之前就赚取免费流量。</string>
+    <string name="activity_about_order">预定一个包含一年会员的开启包，您将通过快递收到我们的X微芯片。</string>
+    <string name="activity_about_rate_us">在App Store上评价我们</string>
+    <string name="activity_about_terms">条款和条件</string>
+    <string name="activity_get_starter_pack_summary_btnRemoveDiscount">取消折扣</string>
+    <string name="activity_refer_friends_normal_refer">每推荐一位朋友下载并注册，您就可获得100MB的免费流量！</string>
+    <string name="activity_refer_friends_normal_description">您的朋友也将获得100MB免费流量！</string>
+    <string name="activity_refer_friends_normal_refer_friends">推荐朋友</string>
+    <string name="activity_refer_friends_normal_copy">或者复制您的链接</string>
+    <string name="activity_refer_friends_normal_btnBack">❮  推荐给朋友</string>
+    <string name="activity_refer_friends_normal_btnCopy">复制</string>
+    <string name="activity_refer_friends_normal_btnReferralHistory">查看推荐记录列表</string>
+    <string name="activity_referral_copy">复制</string>
+    <string name="activity_referral_title">免费流量！</string>
+    <string name="activity_support_btnSubmit">发送邮件至客服团队</string>
+    <string name="activity_support_alternate">或者，您可以 WhatsApp至 60192912692 来联系我们的客服团队。</string>
+    <string name="activity_signal_strength_good_signal">您有良好的信号强度吗？</string>
+    <string name="activity_signal_strength_ensure">确保您有良好的信号强度。</string>
+    <string name="activity_signal_strength_btnBack">❮  故障排查</string>
+    <string name="activity_supported_country_btnBack">❮  故障排查</string>
+    <string name="activity_switch_network_btnBack">❮  故障排查</string>
+    <string name="activity_switch_off_wifi_btnBack">❮  故障排查</string>
+    <string name="activity_turn_on_data_question">移动流量和数据漫游已打开？</string>
+    <string name="activity_turn_on_data_switch">在做这一步之前请切换至Flexiroam X！</string>
+    <string name="activity_turn_on_data_step_one">步骤一</string>
+    <string name="activity_turn_on_data_step_one_detail">前往手机设置 > 移动网络/蜂窝网络</string>
+    <string name="activity_turn_on_data_step_two">步骤二</string>
+    <string name="activity_turn_on_data_step_two_detail">打开数据流量和数据漫游</string>
+    <string name="dialog_apply_code_shipping_btnApply">使用代码</string>
+    <string name="dialog_check_email_resend">重发链接</string>
+    <string name="dialog_check_email_click">点击邮件中的链接登录</string>
+    <string name="dialog_check_email_not_received">没有收到邮件?</string>
+    <string name="dialog_force_update_available">现有新版本</string>
+    <string name="dialog_force_update_please_update">请更新至漫游通X最新版本。</string>
+    <string name="dialog_force_update_btnOK">好的</string>
+    <string name="dialog_logout_confirm_title">登出</string>
+    <string name="dialog_logout_confirm_question">确定要登出？</string>
+    <string name="dialog_logout_confirm_btnOK">登出</string>
+    <string name="dialog_logout_confirm_btnCancel">取消</string>
+    <string name="activity_apply_referral_code_details">已有促销码？请在下方输入</string>
+    <string name="activity_apply_referral_enter">输入推荐码</string>
+    <string name="activity_apply_referral_btnBack">❮  使用推荐码</string>
+    <string name="activity_payment_method_btnBack">❮  支付方式</string>
+    <string name="activity_payment_method_yourcard">您的银行卡</string>
+    <string name="payment_add_card">添加银行卡</string>
+    <string name="fragment_account_tvReferrals">"推荐人数 | "</string>
+    <string name="fragment_account_databal">"流量余额 | "</string>
+    <string name="fragment_account_getMembership">获取</string>
+    <string name="fragment_account_refer_friends">推荐朋友</string>
+    <string name="fragment_account_apply_ref_code">使用推荐码</string>
+    <string name="fragment_account_promotions">使用促销码</string>
+    <string name="fragment_account_payment_method">支付方式</string>
+    <string name="fragment_account_transactions">交易记录</string>
+    <string name="fragment_account_guide">用户指南</string>
+    <string name="fragment_account_support">客服</string>
+    <string name="fragment_account_about">关于我们</string>
+    <string name="fragment_account_log_out">登出</string>
+    <string name="fragment_status_country">国家</string>
+    <string name="payment_select_country">选择国家</string>
+    <string name="payment_we_accept">我们接受</string>
+    <string name="payment_payment_method">❮  支付方式</string>
+    <string name="payment_edit_save">保存</string>
+    <string name="payment_card_number">银行卡号码</string>
+    <string name="login">注册 / 登录</string>
+    <string name="error_remove_discount_code">无法删除优惠代码。请稍候再试。</string>
+    <string name="dialog_unsubscribe_confirm_cancel">取消</string>
+    <string name="dialog_unsubscribe_confirm_proceed">继续</string>
+    <string name="error_apply_discount_code">无法使用优惠代码。请稍候再试。</string>
+    <string name="error_apply_promo_code">无法使用促销码。请稍候再试。</string>
+    <string name="error_apply_referral_code">无法使用推荐码。请稍候再试。</string>
+    <string name="dialog_support_sent_title">邮件已发送</string>
+    <string name="dialog_support_sent_btnOk">好的</string>
+    <string name="dialog_data_added_btnOK">确认</string>
+    <string name="dialog_data_added_earned">已赚取的免费流量</string>
+    <string name="dialog_data_added_notice">流量已添加！</string>
+    <string name="dialog_data_added_thank">谢谢。已绑定Facebook。</string>
+    <string name="dialog_data_added_your_balance">您的流量余额</string>
+    <string name="activity_about_btnBack">❮  关于我们</string>
+    <string name="activity_apply_referral_btnApply">使用推荐码</string>
+    <string name="activity_country_details_name">国家名字</string>
+    <string name="activity_get_starter_pack_shipping_btnApplyCode">使用运费代码</string>
+    <string name="activity_get_starter_pack_shipping_code">使用免运费代码</string>
+    <string name="activity_get_starter_pack_shipping_code_enter">输入运费代码</string>
+    <string name="activity_get_starter_pack_summary_shipping_code_applied">不需要邮寄</string>
+    <string name="activity_get_xtra_data_select_btnBack">❮  购买额外付费流量</string>
+    <string name="activity_help_center_support">客服</string>
+    <string name="activity_help_center_configure">配置APN设置指南</string>
+    <string name="activity_help_center_terms">条款和条件</string>
+    <string name="activity_help_center_faq">常见问题</string>
+    <string name="activity_terms_btnBack">❮  条款和条件</string>
+    <string name="activity_switch_network_step_three">步骤三</string>
+    <string name="error_name">此栏必须填写</string>
+    <string name="about_slide1_desc">仅需一次性贴上X微芯片，免掉每次出国旅行都需要购买SIM卡的麻烦！</string>
+    <string name="about_slide1_title">欢迎！</string>
+    <string name="about_slide2_desc">在您的SIM卡与漫游通X之间轻松切换。</string>
+    <string name="about_slide3_desc">使用漫游通X，在超过100个国家随时随地轻松漫游。</string>
+    <string name="activity_call_verify_mobile_btnBack">❮  添加您的主叫号码</string>
+    <string name="activity_country_details_btnBack">❮  合作伙伴列表</string>
+    <string name="activity_country_details_highlights">亮点 ...</string>
+    <string name="activity_country_details_tripadvisor">与合作伙伴 TripAdvisor</string>
+    <string name="activity_get_starter_pack_shipping_code_error">错误</string>
+    <string name="activity_get_starter_pack_shipping_not_required">不需要邮寄。</string>
+    <string name="activity_get_starter_pack_shipping_note">注意：我们不邮寄到邮政信箱，请输入您的英文地址。</string>
+    <string name="activity_get_starter_pack_summary_shipping_code">无代码可应用</string>
+    <string name="activity_get_starter_pack_summary_shipping_to">至 %s</string>
+    <string name="activity_help_center_btnBack">❮  帮助中心</string>
+    <string name="activity_notification_detail_btnBack">❮ 通知</string>
+    <string name="activity_notifications_btnBack">❮ 通知</string>
+    <string name="activity_onboarding_btnOK">好的</string>
+    <string name="activity_onboarding_started">这里是供您开启的100MB流量。</string>
+    <string name="activity_onboarding_welcome">欢迎</string>
+    <string name="activity_order_payment_btnBack">❮ 支付</string>
+    <string name="activity_order_payment_btnNewCardBack">返回</string>
+    <string name="activity_order_payment_btnNext">确认并且支付</string>
+    <string name="activity_order_payment_btnYourCard">编辑</string>
+    <string name="activity_order_payment_card">您的银行卡</string>
+    <string name="activity_order_payment_cardForm_action">下一步</string>
+    <string name="activity_order_payment_total">总计</string>
+    <string name="activity_payment_method_btnEdit">编辑</string>
+    <string name="activity_refer_friends_24_btnBack">❮  获取免费流量</string>
+    <string name="activity_refer_friends_24_btnCopy">复制</string>
+    <string name="activity_refer_friends_24_btnReferFriends">推荐给朋友</string>
+    <string name="activity_refer_friends_24_claim">在 --:--:-- 之内获取400MB流量</string>
+    <string name="activity_refer_friends_24_copypaste">或者复制您的链接</string>
+    <string name="activity_refer_friends_24_details">推荐给5个朋友以获得1GB免费流量！您的朋友也将每人获得100MB流量。</string>
+    <string name="activity_refer_friends_24_friends_signed_up">个朋友注册</string>
+    <string name="activity_refer_friends_24_time_left_to_unlock">剩余解锁时间</string>
+    <string name="activity_refer_friends_24_tip">提示：继续推荐朋友下载注册以获得100MB免费流量</string>
+    <string name="activity_refer_friends_24_title">1GB免费流量挑战</string>
+    <string name="activity_refer_friends_24_tvBtnTitle">获取400MB免费流量</string>
+    <string name="activity_referral_details">每推荐一位朋友下载注册即可获得100MB免费流量</string>
+    <string name="activity_referral_details_two">当您的朋友使用您的推荐链接下载，双方可各自获得100MB流量。</string>
+    <string name="error_add_edit_card">添加/编辑银行卡失败。\n请稍后再试。</string>
+    <string name="error_apply_shipping_code">无法使用运输代码。\n请稍后再试。</string>
+    <string name="error_checkout_pay">无法处理您的付款。\n请稍后再试。</string>
+    <string name="error_intent_extra">发生意外错误。\n请稍后再试。</string>
+    <string name="error_invalid_shipping_code">请输入一个有效的运输代码。</string>
+    <string name="error_log_in_facebook_no_email">不能够使用Facebook登陆，\n因为您未认证您的Facebook邮箱。</string>
+    <string name="error_log_in_facebook">使用Facebook登陆失败。\n请稍后重试。</string>
+    <string name="error_log_in_google">使用Google登陆失败。\n请稍后重试。</string>
+    <string name="error_membership_checkout">现在不能处理您的订单。\n请稍后再试。</string>
+    <string name="error_name_na">此栏必填。\n如无相关信息请输入 “-”。</string>
+    <string name="error_retrieve_saved_card">无法加载支付方式。\n请稍后再试。</string>
+    <string name="error_select_starter_pack">无法检索产品。\n请稍后再试。</string>
+    <string name="error_select_xtra_data">无法检索产品。\n请稍后再试。</string>
+    <string name="error_undetected_browser">无法检测默认网页浏览器。\n您可以访问 www.flexiroam.com 以获取更多信息。</string>
+    <string name="activity_referral_share_link">分享推荐链接</string>
+    <string name="activity_referral_skip">跳过</string>
+    <string name="activity_signal_strength_stay">在室内或者地下室可能会影响您的信号强度。</string>
+    <string name="activity_support_btnBack">❮  客服</string>
+    <string name="activity_support_hint">请描述您的问题</string>
+    <string name="activity_support_letusknow">通知我们</string>
+    <string name="activity_support_taptoattachimage">点击以添加图片（可选）</string>
+    <string name="activity_supported_country_btnCheckCoverage">查看覆盖范围</string>
+    <string name="activity_supported_country_check">查看覆盖国家</string>
+    <string name="activity_supported_country_question">您是否在我们的覆盖国家？</string>
+    <string name="activity_switch_network_step_three_detail">重启您的手机以改变应用。</string>
+    <string name="activity_switch_network_step_two_detail">点击FLEXIROAM X-KIT  > 切换 SIM  > Flexiroam X</string>
+    <string name="activity_switch_off_wifi_connected">如果您的WIFI已连接将无法连接到我们的网络。</string>
+    <string name="activity_switch_off_wifi_question">您已经关闭WIFI了吗？</string>
+    <string name="activity_switch_off_wifi_turn_off">关闭WIFI以使用Flexiroam X的移动流量。</string>
+    <string name="activity_track_order_addressTitle">地址：</string>
+    <string name="activity_track_order_btnBack">❮  订单追踪</string>
+    <string name="activity_track_order_btnCheckStatus">检查状态</string>
+    <string name="activity_track_order_details">邮寄和订单状态</string>
+    <string name="activity_track_order_invoice_no">发票编号：</string>
+    <string name="activity_track_order_title">订单追踪</string>
+    <string name="activity_track_order_trackingCodeTitle">订单追踪代码：</string>
+    <string name="activity_track_order_trackingStatusTitle">邮寄状态：</string>
+    <string name="activity_transactions_btnBack">❮  交易</string>
+    <string name="activity_unlock_connect_with_fb_btnBack">❮  解锁免费流量</string>
+    <string name="activity_unlock_connect_with_fb_connect">仅需连接 Facebook 以获得 %s</string>
+    <string name="activity_unlock_connect_with_fb_get_data">获得 %s 免费流量！</string>
+    <string name="activity_web_view_btnBack">❮  用户指南</string>
+    <string name="dialog_check_sms_title">"我们已发送信息至 "</string>
+    <string name="dialog_order_success_address">地址</string>
+    <string name="dialog_order_success_for_your_purchase">您的购买</string>
+    <string name="dialog_order_success_thank_you">谢谢</string>
+    <string name="dialog_order_success_ok">好的</string>
+    <string name="dialog_order_success_msg">收据已发送至您的邮箱。</string>
+    <string name="dialog_order_success_invoice_no">收据号码：&#160;</string>
+    <string name="dialog_refer_glossary_btnOk">确认</string>
+    <string name="dialog_select_country_btnProceed">前往</string>
+    <string name="dialog_select_country_title">选择国家</string>
+    <string name="dialog_unsubscribe_confirm_detail">点击继续，漫游通X会员自动续订将会停止。您的剩余流量将会在会员期后失效。</string>
+    <string name="fragment_call_contacts">联系人列表</string>
+    <string name="fragment_call_dial">拨号</string>
+    <string name="fragment_call_history">通话记录</string>
+    <string name="fragment_contacts_unable">"访问权限，无法访问联系人。 "</string>
+    <string name="fragment_status_carrier">运营商</string>per
+    <string name="fragment_status_configure">设置APN</string>
+    <string name="fragment_status_note">注意：当您切换到Flexiroam X 之后将不能再接收到来自Home SIM 的电话和短信。</string>
+    <string name="fragment_status_once_received">一旦您收到了开启包</string>
+    <string name="fragment_status_switch_home">切换回Home SIM。</string>
+    <string name="fragment_status_switch_sim">切换SIM</string>
+    <string name="dialog_notification_btnNotificationOk">确认</string>
+    <string name="dialog_select_country_desc">请选择拨打号码的所属国家。</string>
+    <string name="dialog_apply_code_discount_error">错误</string>
+    <string name="country_details_highlights">"%s 的旅游景点"</string>
+    <string name="payment_cc_message">"请输入您的银行卡信息，未经您的允许我们不会收取任何费用。 "</string>
+    <string name="activity_about_faq">常问问题</string>
+    <string name="dialog_trial_plan_usage_title">开启包的流量可以享受服务？</string>
+    <string name="dialog_trial_plan_usage_needmoredata">需要更多流量</string>
+    <string name="activity_call_connect_connecting">建立连接...</string>
+    <string name="activity_call_verify_code_onetimesetup">一次性设置</string>
+    <string name="activity_call_verify_code_description">您将在1分钟内收到通话。 \n出现提示时，输入以下号码。</string>
+    <string name="activity_call_verify_mobile_title">验证您的电话号码</string>
+    <string name="activity_call_verify_mobile_subtitle">添加您的来电显示</string>
+    <string name="activity_call_verify_mobile_mobilenumber_hint">手机号码</string>
+    <string name="activity_call_verify_mobile_glossary">点击上面的按钮，你会收到一个\n6位代码和一个电话来验证你的手机。</string>
+    <string name="activity_get_xtra_data_select_upgrade_selectdataplanbelow">在下面选择一个计划</string>
+    <string name="activity_get_xtra_data_select_upgrade_btnBack">❮  升级至全套套餐</string>
+    <string name="activity_set_plan_renewal_btnBack">❮  套餐续费</string>
+    <string name="activity_set_plan_renewal_btnSetPlanRenewal">套餐续费</string>
+    <string name="activity_set_plan_renewal_glossary">在您的计划结束之前，我们不会收取费用</string>
+    <string name="dialog_unsubscribe_confirm_title">停止更新计划？</string>
+    <string name="dialog_verify_confirm_desc">验证您的手机号码，以便来电接收者可以查看您的来电显示（手机号码\n\n您将收到一个6位数的代码和一个\n打电话来验证您的手机</string>
+    <string name="dialog_verify_confirm_btnLater">后来</string>
+    <string name="dialog_warning_title">警告</string>
+    <string name="dialog_warning_continue">继续</string>
+    <string name="fragment_challenge_about_slide1_title">欢迎来到\n1GB免费数据挑战</string>
+    <string name="fragment_challenge_about_slide1_desc">参考5位朋友在24小时内注册1GB免费解锁！ 每个朋友也有100MB的空间。</string>
+    <string name="fragment_challenge_about_slide2">查看进度</string>
+    <string name="fragment_challenge_about_slide2_desc">不时检查您的进度，看看有没有人注册。</string>
+    <string name="fragment_challenge_about_slide3">解锁免费数据</string>
+    <string name="dialog_challenge_about_btnLater">后来</string>
+    <string name="dialog_challenge_about_btnImIn">开始吧</string>
+
+    <string name="offline_snackbar">-b-你离线了-/b- 您的余额可能不是最新的</string>
+    <string name="fragment_home_status_trial_title">您的启动套餐</string>
+    <string name="fragment_home_status_travellingsoon_title">即将旅行</string>
+    <string name="fragment_home_status_travellingsoon_msg_nostarterpack">无开启包</string>
+    <string name="fragment_home_status_travellingsoon_msg_noactiveplan">无激活套餐</string>
+    <string name="fragment_home_status_validity_youareoffline">你是离线的</string>
+    <string name="fragment_home_status_validity_linkstarterpack">连接开启包</string>
+    <string name="fragment_home_status_validity_getpacktoroam">无激活套餐</string>
+    <string name="fragment_home_status_validity_checkoutourdataplans">查看我们的数据计划</string>
+    <string name="fragment_home_status_validity_validtil">流量套餐截止日期</string>
+    <string name="fragment_home_toast_cantgetbalance">无法从服务中获得平衡。</string>
+    <string name="fragment_home_validity_trial_upgradetofullplan">升级至全套套餐</string>
+    <string name="fragment_home_status_trial_yourstarterplanhasended">您的开启包已经结束</string>
+    <string name="dialog_warning_btnUpgrade">升级</string>
+    <string name="fragment_account_xmicrochip">X 微芯片</string>
+    <string name="fragment_account_xmicrochip_validity">生命周期有效</string>
+    <string name="activity_login_get_email_title">请在下面提供您的电子邮件</string>
+    <string name="activity_signup_mobile_title">注册您的电话号码</string>
+    <string name="activity_signup_mobile_btnContinue">寄存器</string>
+    <string name="activity_hint_password_confirm">确认密码</string>
+    <string name="activity_support_select_btnBack">❮  支持中心</string>
+    <string name="activity_support_select_selfsupport_title">帮助自己</string>
+    <string name="activity_support_select_selfsupport_desc">排查您的问题</string>
+    <string name="activity_support_select_contactsupport_title">联系支持</string>
+    <string name="activity_support_select_contactsupport_desc">无法解决您的问题？联系我们的支持人员</string>
+    <string name="activity_login_get_email_btnBack">❮  确认电子邮件地址</string>
+    <string name="activity_change_language_btnBack">❮  选择语言</string>
+    <string name="status_make_sure_sim_inserted">确保您的SIM卡已插入</string>
+    <string name="activity_hint_email">电子邮件</string>
+    <string name="status_switch_sim_no_toolkit">找不到SIM卡套件，请遵循指南中的替代步骤</string>
+    <string name="status_connection_connected">连接的</string>
+    <string name="status_connection_not_connected">未连接</string>
+    <string name="fragment_status_pull">滑下以更新</string>
+    <string name="list_item_call_history_no_answer">没有答案</string>
+    <string name="slide_4_desc">查找最新的旅游优惠和促销活动</string>
+    <string name="slide_4_title">探索和发现</string>
+
+    <string name="fragment_dial_rate">通话费率用:</string>
+    <string name="fragment_dial_btnAddCallerID">添加您的\n呼叫号码</string>
+    <string name="fragment_dial_selectcountry">选择国家</string>
+    <string name="fragment_dial_error_unable_to_retrieve">我们目前无法检索所选国家/地区的通话费率信息。</string>
+    <string name="fragment_dial_error_select_country">确保您选择一个国家/地区并输入有效的电话号码。</string>
+
+    <string name="fragment_contacts_search">搜索联系人</string>
+
+    <string name="fragment_account_valid_till">数据计划到期</string>
+    <string name="fragment_account_membership_plan_status">无数据计划</string>
+    <string name="fragment_account_plan_renewal">更新计划</string>
+    <string name="fragment_account_language">语言</string>
+    <string name="fragment_account_error_cant_toggle_membership_subscription">目前无法启用/禁用会员资格订阅。请稍后再试。</string>
+
+    <string name="error_permission_phone_allow">请允许手机的权限，使应用程序能正常运行。</string>
+    <string name="activity_change_language_title">选择你的语言</string>
+    <string name="activity_refer_friends_termsandconditions">推荐条款和条件</string>
+    <string name="toast_please_select_product">请选择一个产品</string>
+    <string name="dash_tab_home">家</string>
+    <string name="dash_tab_coverage">覆盖</string>
+    <string name="dash_tab_status">状态</string>
+    <string name="dash_tab_call">拨打</string>
+    <string name="dash_tab_account">帐户</string>
+    <string name="activity_call_verify_code_callagain">重拨</string>
+    <string name="activity_call_verify_code_nocall">我没有收到通话</string>
+
+    <string name="activity_set_plan_renewal_warining">目前计划在 %1$s 天到期 - %2$s</string>
+    <string name="activity_set_plan_renewal_currentplanvalidtil">目前计划有效期至 %1$s</string>
+    <string name="activity_set_plan_renewal_warining_today">目前流量套餐今日截止。</string>
+
+    <string name="activity_guide_setup_first_time">首次设立</string>
+    <string name="activity_guide_setup_configure">配置APN设置</string>
+    <string name="activity_guide_setup_mins">2分钟</string>
+    <string name="activity_guide_switchsim_return">当你回家</string>
+    <string name="activity_guide_switchsim_home">切换回家用SIM卡</string>
+
+    <string name="dialog_loading">载入中</string>
+    <string name="activity_login_mobile_new_user">你是新用户吗？</string>
+    <string name="activity_login_mobile_signup">现在注册</string>
+    <string name="activity_refer_friends_normal_tnc">* 条款和条件适用</string>
+
+    <string name="fragment_dial_proceed_at">通话费: %s。继续？</string>
+    <string name="activity_call_connect_ending_call">通话结束</string>
+    <string name="activity_call_connect_call_disconnected">呼叫断开连接</string>
+
+    <string name="list_item_tripadvisor_highlights_rating">评分：</string>
+    <string name="list_item_tripadvisor_highlights_type">类别：</string>
+    <string name="list_item_tripadvisor_highlights_award">没有赞美</string>
+
+    <string name="error_cant_reach_services">无法建立连接。 请稍后再试。</string>
+    <string name="error_mic_permission">为了执行呼叫，应用程序需要使用麦克风的权限。 请允许在应用程序设置。</string>
+
+    <string name="guide_microsim">微型SIM卡</string>
+    <string name="guide_nanosim">纳米SIM卡</string>
+    <string name="guide_what_kind_of_sim">你有什么样的SIM卡？</string>
+    <string name="guide_stick_microchip">贴上X微芯片</string>
+
+    <string name="dialog_check_email_btnOpenMail">打开邮箱</string>
+    <string name="dialog_check_sms_btnOpenSMS">打开短信</string>
+
+    <string name="activity_troubleshooting_turned_on_data_roaming">您是否启用了数据漫游？</string>
+    <string name="activity_troubleshooting_turned_on_mobile_data">您是否启用了移动数据？</string>
+
+    <string name="fragment_home_warning_plan_expiry">您的套餐将会在 %s 天失效。\n如果您希望保留并继续使用流量请设置套餐自动续费。></string>
+    <string name="fragment_home_warning_plan_expiry_today">您的流量套餐将会在今天截止。\n如果想继续保留并使用套餐请设置自动续费。></string>
+
+    <string name="dialog_add_card_title">请添加付款方式</string>
+    <string name="dialog_add_card_msg">您需要添加一张有效的信用卡才能享受套餐自动续费功能</string>
+
+    <string name="webview_faq_btnBack">常问问题</string>
+
+    <string name="fragment_home_warning_plan_expiry_subscription">您的套餐将会在 %1$s 天失效。\n您的续约配套为 %2$s</string>
+    <string name="fragment_home_warning_plan_expiry_today_subscription">您的流量套餐将会在今天截止。\n您的续约配套为 %s</string>
+    <string name="activity_xtracheaphome_btnBack">❮  获取其他数据</string>
+    <string name="activity_get_short_trip_data_select_btnBack">❮  %s 流量套餐</string>
+    <string name="activity_get_short_trip_data_select_txtFrom">低至 %s</string>
+    <string name="activity_get_short_trip_data_select_btnSet">设定</string>
+    <string name="activity_get_short_trip_data_select_tvFromDate">设置到达日期</string>
+    <string name="indicator_loading_plans">加载数据计划..</string>
+    <string name="list_item_product_from">低至</string>
+    <string name="fragment_home_cardstatuscountryplan_your_balance">你的平衡是</string>
+    <string name="fragment_home_cardstatuscp_tvstatuscpvalidtil">活性</string>
+    <string name="fragment_home_cardstatuscp_daysleft">剩余天数</string>
+
+    <string name="tab_global_data">全球流量</string>
+    <string name="tab_country_data">当地流量</string>
+
+    <string name="search_country">搜索国家</string>
+    <string name="popular_countries">流行的国家</string>
+
+    <string name="no_plans_available">没有找到优惠</string>
+    <string name="special_offers">特别促销</string>
+    <string name="unable_to_get_offers_tap_retry">无法下载优惠。\n点击这里再试一次。</string>
+    <string name="plans_available">个计划可用</string>
+    <string name="txt_date">日期:</string>
+    <string name="activity_get_short_trip_data_select_tvInfo">购买1-3个月前可享受高达50％的折扣。</string>
+    <string name="book_now">现在预订</string>
+
+    <string name="txt_hot">熱賣</string>
+
+    <!--Home Cards-->
+    <string name="cards_get_extra_data">購買額外流量</string>
+    <string name="cards_load_data_balance_question">流量不足？</string>
+    <string name="cards_load_data_balance_question2">流量不足？您出國時需要更多流量</string>
+    <string name="cards_data_usage_example">流量使用實例</string>
+
+    <string name="cards_data_usage_question">如何使用您的流量</string>
+    <string name="cards_check_now">立即查閱</string>
+
+    <string name="cards_track_your_order">追蹤您的訂單</string>
+    <string name="cards_shipping_and_order_status">發貨和訂單狀態</string>
+    <string name="cards_check_status">檢查狀態</string>
+
+    <string name="cards_1gb_free_data">免費1GB流量</string>
+    <string name="cards_refer_5_friends">在24小時內，邀請5位朋友即可獲取1GB</string>
+    <string name="cards_get_free_data">立即邀請朋友</string>
+
+    <string name="cards_get_starter_pack">獲取開啟包</string>
+    <string name="cards_get_starter_pack_text">即可在超過100個國家開始漫游</string>
+    <string name="cards_buy_now">立即預購</string>
+
+    <string name="cards_start_roaming">開始漫游吧</string>
+    <string name="cards_free_x_chip_msg">每個開啟包都配有一張免費的X微芯片</string>
+
+    <string name="cards_link_starter_pack">連接您的開啟包</string>
+    <string name="cards_link_starter_pack_question">掃一掃條碼以激活您的微芯片</string>
+
+    <string name="cards_upgrade_plan">升級至正式版本</string>
+    <string name="cards_upgrade_plan_text">在任何時候，或者當您試用流量結束之後，您可以通過購買額外流量升級到正式版本</string>
+
+    <string name="cards_guide">如何使用及安裝？</string>
+    <string name="cards_guide_text">查閱用戶指南及手冊</string>
+    <string name="cards_steps_by_step_guide">步驟指南</string>
+
+    <string name="cards_100mb_on_signUp">當您的朋友註冊時，即可獲取100MB</string>
+
+    <string name="cards_verify_email_text">驗證您的電子郵件以完成您的帳號</string>
+    <string name="cards_verify_email">立即驗證</string>
+
+    <string name="cards_connect_to_fb">僅需鏈接您的Facebook帳號即可獲得額外400MB</string>
+
+    <string name="cards_special_offer">特別優惠</string>
+    <string name="cards_special_offer_msg">現在您可以在指定的國家內獲得更超值的數據套餐</string>
+
+    <string name="cards_get_more_data">獲取更多流量</string>
+
+    <!--Data Usage-->
+    <string name="data_usage_message">* 以下僅為流量實例,您的實際流量也許不同</string>
+
+    <string name="data_usage_ins_msg">即時信息 \n（僅限文本）</string>
+    <string name="data_usage_email">郵件 \n（收／發）</string>
+    <string name="data_usage_photo">上傳圖片</string>
+    <string name="data_usage_voice_call">網絡語音通話</string>
+    <string name="data_usage_map">地圖導航</string>
+    <string name="data_usage_web">瀏覽網頁</string>
+
+    <string name="data_usage_trial_bt">现在升级至全套餐</string>
+
+    <string name="data_usage_oneGb_xtra_bt">获得更多流量</string>
+    <string name="data_usage_oneGb_getPack_bt">获取开启包</string>
+
+    <string name="activity_resetpassword_hint_new_password">新密碼</string>
+    <string name="activity_resetpassword_hint_confirm_password">確認密碼</string>
+    <string name="activity_resetpassword_confirm_password_not_match_msg">密碼不符</string>
+    <string name="activity_resetpassword_system_error_msg">無法重置密碼，請重試</string>
+    <string name="activity_resetpassword_confirm_password_msg">請輸入新密碼</string>
+    <string name="activity_resetpassword_new_password_length_msg">您的密碼必須是6-15字符</string>
+
+    <string name="error_change_language">無法更改您的語言。請重試</string>
+
+    <string name="data_usage_oneGb_title">1GB的流量可以享受什么服务？</string>
+    <string name="data_usage_oneGb_getPack_msg">获取开启包开始漫游</string>
+    <string name="data_usage_oneGb_xtra_msg">需要更多流量?</string>
+    <string name="activity_planhistory_btnBack">❮  套餐历史</string>
+    <string name="msg_status_mobile_data_off">請打開您的移動數據以檢查連接狀態</string>
+    <string name="msg_status_data_roaming_off">請打開數據漫遊以檢查連接狀態</string>
+
+    <string name="error_checkout_connection">您的付款出現故障，請在重試之前先檢查您的郵箱。謝謝</string>
+    <string name="error_network_connection">無法建立連接，請確保您的訊號良好然後重試。</string>
+    <string name="error_login_email_get_app">無法找尋郵箱APP，請登入您的郵箱以接收Flexiroam的郵件。</string>
+
+    <string name="activity_payment_method_select">付費選項</string>
+
+    <string name="activity_transactions_adapter_purchase">已購買: %s</string>
+
+    <string name="dialog_Delete_all_title">刪除全部</string>
+    <string name="dialog_Delete_all_question">您是否确定删除全部信息？\n\n 此選項將無法恢復原狀。</string>
+
+    <string name="dialog_Delete_question">您是否確定刪除所有信息？\n\n 此選項將無法恢復原狀。</string>
+    <string name="dialog_Delete_btnOk">刪除</string>
+    <string name="dialog_Delete_btCancel">取消</string>
+    <string name="dialog_Delete_all_btnOk">刪除</string>
+    <string name="dialog_Delete_title">刪除信息</string>
+
+    <string name="request_plan">查看套餐</string>
+    <string name="request_btn_back">返回</string>
+    <string name="plan_request_failed">現在無法處理您的請求，請稍候重試。謝謝！點擊這裡以返回</string>
+    <string name="plan_request_notify">目前没有 %s 的套餐，我们将会尽快处理您的要求，一旦推出了套餐将会通知您。谢谢！</string>
+    <string name="no_plans_available_question">即将旅行？立即查看 %s 的套餐吧！</string>
+
+    <string name="plan_renewal_btnBack">❮  套餐更新菜单</string>
+    <string name="plan_renewal_options_error">目前无法更新套餐，请稍后重试。</string>
+
+    <string name="txt_show">顯示</string>
+
+    <string name="txt_plan_history_global">全球資料</string>
+    <string name="txt_plan_history_country">本地數據</string>
+
+    <string name="txt_contact_support_question">還有故障 ?</string>
+
+    <string name="msg_status_not_connected">無法連接，請試著故障排查或者聯繫客服人員</string>
+    <string name="msg_status_wifi_on">請關閉您的WiFi以檢測您的信號</string>
+    <string name="msg_status_countdown">建立连接... %d</string>
+
+    <string name="msg_wait">請稍候!</string>
+    <string name="msg_status_offline">您現在不在線上，請確保您已經切換到漫游通X </string>
+    <string name="msg_back_to_exit">請再返回以推出程式</string>
+    <string name="msg_try_again">再重試...</string>
+    <string name="msg_login_expired">登錄鏈接已失效</string>
+    <string name="msg_token_error">無法證實登錄記號</string>
+    <string name="msg_validate_email_error">無法證實您的郵箱，請重試</string>
+    <string name="txt_reset_pass_login">請勿立即重置密碼</string>
+    <string name="btn_reset_pass_login">登記</string>
+    <string name="fragment_account_changepass">更改密碼</string>
+    <string name="activity_resetpassword_new_password_msg">請輸入密碼</string>
+    <string name="txt_OR">要么</string>
+
+    <string name="data_usage_ins_mess_trial_val" >~ 50k</string>
+    <string name="data_usage_email_trial_val" >~ 550</string>
+    <string name="data_usage_photo_trial_val" >~ 200</string>
+    <string name="data_usage_voice_call_trial_val" >~ 30m</string>
+    <string name="data_usage_web_trial_val" >~ 1hr</string>
+    <string name="data_usage_map_trial_val" >~ 5hrs</string>
+
+    <string name="data_usage_ins_mess_fiveHundredMb_val" >~ 250k</string>
+    <string name="data_usage_email_fiveHundredMb_val" >~ 2.75k</string>
+    <string name="data_usage_photo_fiveHundredMb_val" >~ 1k</string>
+    <string name="data_usage_voice_call_fiveHundredMb_val" >~ 150m</string>
+    <string name="data_usage_web_fiveHundredMb_val" >~ 5hr</string>
+    <string name="data_usage_map_fiveHundredMb_val" >~ 25hrs</string>
+
+    <string name="data_usage_ins_mess_oneGb_val" >~ 500k</string>
+    <string name="data_usage_email_oneGb_val" >~ 5.5k</string>
+    <string name="data_usage_photo_oneGb_val" >~ 2k</string>
+    <string name="data_usage_voice_call_oneGb_val" >~ 300m</string>
+    <string name="data_usage_web_oneGb_val" >~ 10hrs</string>
+    <string name="data_usage_map_oneGb_val" >~ 50hrs</string>
+
+    <string name="data_usage_ins_mess_threeGb_val" >~ 1.5mil</string>
+    <string name="data_usage_email_threeGb_val" >~ 16.5k</string>
+    <string name="data_usage_photo_threeGb_val" >~ 6k</string>
+    <string name="data_usage_voice_call_threeGb_val" >~ 15hrs</string>
+    <string name="data_usage_web_threeGb_val" >~ 30hrs</string>
+    <string name="data_usage_map_threeGb_val" >~ 150hrs</string>
+
+    <!--New!-->
+    <string name="activity_reset_password">設置密碼</string>
+
+    <string name="activity_no_notification_background_title">無通知</string>
+    <string name="activity_no_notification_background_detail">往下滑動更新頁面</string>
+    <string name="txt_key_in_xid">輸入20字符組合</string>
+    <string name="txt_click_to_link_starter_pack">點擊以連接您的開啟包</string>
+
+    <string name="fragment_history_no">您目前沒有任何通話記錄。\n 往下滑動以更新頁面</string>
+    <string name="fragment_challenge_about_slide3_desc">恭喜您成功開啟1GB免費流量! 繼續推薦更多好友以開啟更多免費流量！</string>
+
+    <!--New!-->
+
+    <string name="btn_setPermission">允許權限</string>
+    <string name="error_phone_permission_request">請允許電話權限或者電郵至我們的客服團隊 support@flexiroam.com，您可以发WhatsApp 到 +6019 291 2692 </string>
+    <string name="error_mismatch_country_prefix">您選擇的國家並不符合國家區號 \n請選擇正確的國家</string>
+    <string name="error_select_country">請選擇國家</string>
+
+    <string name="tv_saved_cards">卡片記錄</string>
+    <string name="tv_other_payment">其他付费选项</string>
+    <string name="tv_credit_debit_card">信用卡／提款卡</string>
+
+    <string name="tv_default">默認</string>
+    <string name="tv_set_default">設置為默認</string>
+
+    <string name="txt_changing_language">更換語言當中 . . .</string>
+
+    <string name="toast_please_select_payment_method">請選擇一個付費方法</string>
+
+    <string name="error_invalid_card">此卡無效</string>
+    <string name="error_payment_failed">付費不成功，請稍候重試</string>
+    <string name="error_authorize_card">無法鑒定您的卡，請稍候重試</string>
+    <string name="error_payment_response">無法通過服務器</string>
+
+    <string name="msg_status_verifying_card">核實卡片當中...</string>
+    <string name="msg_status_authorizing">銀行卡授權初始化...</string>
+    <string name="msg_status_redirecting">重新載入...</string>
+    <string name="msg_status_processing_payment">支付處理當中...</string>
+    <string name="msg_confirm_payment_title">確認支付</string>
+    <string name="msg_confirm_payment">您是否要繼續 ?</string>
+    <string name="msg_confirm_payment_with_saved_card">您是否要繼續 ? \n信用卡: %s</string>
+    <string name="msg_confirm_payment_with_card">請輸入卡的資料以繼續</string>
+    <string name="msg_confirm_payment_with_redirect">您是否要繼續？ \n您將會被帶到一個瀏覽器內付費</string>
+    <string name="label_pay">支付</string>
+
+
+    <string name="error_add_email">取法添加您的電郵 \n請稍候重試</string>
+    <string name="error_update_name">無法更新您的名字 \n請稍候重試</string>
+    <string name="error_update_country">無法更新您的國家 \n請稍候重試</string>
+    <string name="error_cant_save_threeD_card">抱歉，您的銀行卡需要額外的鑒定步驟，因此無法使用於自動支付選項\n請選擇使用另外一張卡或者聯繫我們的客服團隊以獲得更多詳情。謝謝。</string>
+
+    <string name="dialog_delete_card_title">删除卡资料</string>
+    <string name="dialog_delete_card_question">您是否確定要\n刪除這張卡?\n\n刪除了便無法復原</string>
+
+    <string name="msg_default_card">*如果開啟自動更新，默認的銀行卡將會在更新的時候被收費</string>
+
+    <string name="dialog_save_card_title">確認保存</string>
+    <string name="dialog_save_card_question">您是否確認保存資料?</string>
+    <string name="tv_yes">是</string>
+    <string name="tv_no">否</string>
+
+
+    <!--New!-->
+
+    <!--3.3.6-->
+    <string name="dialog_add_email_support_title">Please provide your e-mail below</string>
+    <string name="dialog_add_email_support_btnOK">OK</string>
+    <string name="dialog_add_email_support_btnCancel">CANCEL</string>
+    <string name="dialog_add_email_support_enter">Enter email</string>
+    <string name="dialog_add_email_support_error">Invalid email</string>
+    <string name="item_country_plan_your_global_balance">您的国际数据流量余额</string>
+
+</resources>

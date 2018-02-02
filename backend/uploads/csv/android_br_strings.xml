@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flexiroam X</string>
+    <string name="activity_call_verify_code_onetimesetup">"Uma única ativação "</string>
+    <string name="activity_call_verify_code_description">Você receberá uma chamada dentro de 1 minuto. \\n Por favor informe o número quando solicitado.</string>
+    <string name="activity_call_verify_code_nocall">"Não recebi nenhuma chamada "</string>
+    <string name="activity_call_verify_code_callagain">"Chame novamente "</string>
+    <string name="activity_call_verify_mobile_title">"Verifique o número celular "</string>
+    <string name="activity_call_verify_mobile_subtitle">"para adicionar a identificação de chamador "</string>
+    <string name="activity_call_verify_mobile_mobilenumber_hint">"Número Celular "</string>
+    <string name="activity_call_verify_mobile_glossary">"clicando no botão acima, você receberá um código de 6 dígitos e uma chamada para verificação de seu número celular "</string>
+    <string name="activity_get_xtra_data_select_upgrade_selectdataplanbelow">"Selecione um plano abaixo "</string>
+    <string name="activity_get_xtra_data_select_upgrade_btnBack">" Migre para um plano completo"</string>
+    <string name="activity_set_plan_renewal_btnBack">❮  Defina renovação de plano</string>
+    <string name="activity_set_plan_renewal_btnSetPlanRenewal">Defina renovação de plano</string>
+    <string name="activity_set_plan_renewal_glossary">Você só será cobrado quando seu plano terminar</string>
+    <string name="activity_set_plan_renewal_warining">"Plano atual terminará em %1$s dia(s) - %2$s "</string>
+    <string name="activity_set_plan_renewal_warining_today">Plano atual vence hoje</string>
+    <string name="activity_signal_strength_btnBack">❮  Central de Soluções</string>
+    <string name="activity_set_plan_renewal_currentplanvalidtil">"Plano atual válido até %1$s "</string>
+    <string name="dialog_verify_confirm_desc">"Verifique o número do celular para que o número chamado possa ver sua identificaçao (seu número de celular) \n\n Você receberá um código de 6 dígitos e uma chamada telefônica para verificação de seu número celular. "</string>
+    <string name="dialog_verify_confirm_btnLater">Mais tarde</string>
+    <string name="dialog_warning_title">AVISO</string>
+    <string name="dialog_warning_continue">CONTINUAR</string>
+    <string name="dialog_warning_btnUpgrade">ATUALIZE</string>
+    <string name="fragment_challenge_about_slide1_title">Bem-vindo ao desafio do 1GB Grátis</string>
+    <string name="fragment_challenge_about_slide1_desc">Indique 5 amigos para se inscrever dentro de 24 horas e ganhe 1GB grátis! Cada amigo também receberá 100Mb grátis</string>
+    <string name="fragment_challenge_about_slide2">Acompanhe o seu progresso</string>
+    <string name="fragment_challenge_about_slide2_desc">Cheque seu progresso de vez em quando para saber quem já se inscreveu</string>
+
+    <string name="dialog_challenge_about_btnLater">LATER</string> MAIS TARDE
+    <string name="dialog_challenge_about_btnImIn">I\'M IN</string> ESTOU EM
+
+    <string name="offline_snackbar"><b>You\'re offline.</b> Seu Saldo pode  estar desatualizado.</string>
+    <string name="fragment_home_status_trial_title">Seu Plano Inicial</string>
+    <string name="fragment_home_status_travellingsoon_title">Você viajará em breve?</string>
+    <string  name="fragment_home_status_travellingsoon_msg_nostarterpack">Não há Pacote Inicial</string>
+    <string name="fragment_home_status_travellingsoon_msg_noactiveplan">Sem Plano Ativo</string>
+    <string name="fragment_home_status_validity_youareoffline">Você está offline.</string>
+    <string name="fragment_home_status_validity_linkstarterpack">Vincule o pacote inicial</string>
+    <string name="fragment_home_status_validity_getpacktoroam">Adquira o Pacote Inicial para fazer roaming</string>
+    <string name="fragment_home_status_validity_checkoutourdataplans">Conheça nossos planos de dados</string>
+    <string name="fragment_home_status_validity_validtil">Válido até</string>
+    <string name="fragment_home_toast_cantgetbalance">Não foi possível recuperar o saldo</string>
+    <string name="fragment_home_validity_trial_upgradetofullplan">Migre para um plano completo</string>
+    <string name="fragment_home_status_trial_yourstarterplanhasended">Seu Plano Inicial terminou</string>
+
+    <string name="fragment_account_xmicrochip"> Microchip X</string>
+    <string name="fragment_account_xmicrochip_validity">Sem prazo validade</string>
+    <string name="activity_login_get_email_title">Por favor informe seu e-mail abaixo</string>
+    <string name="activity_hint_email">E-mail</string>
+    <string name="activity_signup_mobile_title">Incrição com  número de celular.</string>
+    <string name="activity_signup_mobile_btnContinue">INSCREVER</string>
+    <string name="activity_hint_password_confirm">Confirmar senha</string>
+    <string name="activity_support_select_btnBack">❮  Suporte</string>
+    <string name="activity_support_select_selfsupport_title">Auto Suporte</string>
+    <string name="activity_support_select_selfsupport_desc">Resolva seus problemas agora</string>
+    <string name="activity_support_select_contactsupport_title">Contate Suporte</string>
+    <string name="activity_support_select_contactsupport_desc">Não conseguiu resolver seu problema?  Envie detalhes para nossa equipe de suporte</string>
+    <string name="activity_login_get_email_btnBack">❮  Verifique e-mail</string>
+    <string name="activity_change_language_btnBack">❮  Selecione idioma</string>
+    <string name="status_make_sure_sim_inserted">Por favor assegure-se que o Chip está inserido no aparelho.</string>
+    <string name="status_switch_sim_no_toolkit">Infelizmente não conseguimos localizar os detalhes do Chip, por favor tente outras alternativas conforme sugerido em nosso guia.</string>
+    <string name="status_connection_connected">CONECTADO</string>
+    <string name="status_connection_not_connected">Não Conectado</string>
+    <string name="error_permission_phone_allow">Por favor forneça todas as permissões para que o app possa funcionar</string>
+    <string name="activity_change_language_title">Escolha idioma de preferência</string>
+    <string name="activity_refer_friends_termsandconditions">Termos e Condições - Indicações</string>
+    <string name="toast_please_select_product">Por favor selecione um produto</string>
+    <string name="dash_tab_home">Home</string>
+    <string name="dash_tab_coverage">Cobertura</string>
+    <string name="dash_tab_status">Status</string>
+    <string name="dash_tab_call">Chamar</string>
+    <string name="dash_tab_account">Conta</string>
+
+    <string name="dialog_loading">Carregando…</string>
+    <string name="activity_login_mobile_new_user">Novo usuário?</string>
+    <string name="activity_login_mobile_signup">Inscreva-se</string>
+    <string name="activity_refer_friends_normal_tnc">* Termos e Condições são aplicáveis</string>
+
+    <string name="activity_call_connect_ending_call">Finalizando a chamada…</string>
+    <string name="activity_call_connect_call_disconnected">Chamada desconectada</string>
+
+    <string name="error_cant_reach_services">Por favor tente novamente mais tarde</string>
+    <string name="error_mic_permission">Para efetuar chamadas, o app necessita de acesso ao microfone. Por favor faça a autorização nas configurações do Aplicativo</string>
+    <string name="guide_microsim">Micro Chip</string>
+    <string name="guide_nanosim">Nano Chip</string>
+    <string name="guide_what_kind_of_sim">Que tipo de chip você tem?</string>
+    <string name="guide_stick_microchip">Cole o Microchip</string>
+
+    <string name="activity_troubleshooting_turned_on_data_roaming">Ativou o roaming de dados?</string>
+    <string name="activity_troubleshooting_turned_on_mobile_data">Ativou os dados móveis?</string>
+    <string name="fragment_home_warning_plan_expiry">Seu plano terminará em %s dias. Se você quiser manter o seu saldo de dados, <b>defina a renovação de plano ></b></string>
+    <string name="fragment_home_warning_plan_expiry_today">Seu plano terminará hoje. Se quiser manter o seu saldo de dados, <b>defina a renovação de plano ></b></string>
+
+    <string name="fragment_home_warning_plan_expiry_subscription">Seu plano terminará em %1$s dia(s). Sua conta está confgurada para renovação com  %2$s</string>
+    <string name="fragment_home_warning_plan_expiry_today_subscription">Your plan is ending today.\nYour account is set to renew with %s</string> Seu plano terminará hoje. Sua conta está configurada para renovação com  %s
+
+    <string name="dialog_add_card_title">Please add a payment method</string> Por favor adicione  forma de pagamento
+    <string name="dialog_add_card_msg">Para configurar a renovação de plano, você necessita informar um cartão de crédito válido.</string>
+    <string name="webview_faq_btnBack">Perguntas Frequentes</string>
+    <string name="activity_xtracheaphome_btnBack">❮  Ganhe Dados Xtra</string>
+    <string name="activity_get_short_trip_data_select_btnBack">❮  %s Planos de dados</string>
+    <string name="activity_get_short_trip_data_select_txtFrom">Desde %s</string>
+    <string name="activity_get_short_trip_data_select_btnSet">Definir</string>
+    <string name="activity_get_short_trip_data_select_tvFromDate">Defina data de chegada</string>
+    <string name="indicator_loading_plans">Carregando planos disponíveis..</string>
+    <string name="list_item_product_from">à partir de</string>
+    <string name="fragment_home_your_balance">Saldo Global</string>
+    <string name="fragment_home_cardstatuscountryplan_your_balance">Seu saldo</string>
+    <string name="fragment_home_cardstatuscp_tvstatuscpvalidtil">ATIVO</string>
+    <string name="fragment_home_cardstatuscp_daysleft">dias restantes</string>
+
+    <string name="tab_global_data">DADOS GLOBAIS</string>
+    <string name="tab_country_data">DADOS LOCAIS</string>
+
+    <string name="search_country">Procure o país</string>
+    <string name="popular_countries">Países mais populares</string>
+
+    <string name="no_plans_available">Não planos disponíveis</string>
+    <string name="special_offers">Ofertas Especiais</string>
+    <string name="unable_to_get_offers_tap_retry">Não foi possível recuperar as ofertas</string>
+    <string name="plans_available">Planos disponíveis</string>
+    <string name="txt_date">Data:</string>
+    <string name="activity_get_short_trip_data_select_tvInfo">Ganhe até 50% desconto comprando de 1 – 3 meses de antecedência</string>
+    <string name="book_now">RESERVE AGORA</string>
+    <string name="activity_planhistory_btnBack">❮  Histórico de planos</string>
+
+    <string name="error_checkout_connection">Algum problema aconteceu enquanto processávamos seu pagamento. Por favor cheque seu email para verificação antes de tentar fazer o pagamento novamente.</string>
+    <string name="error_network_connection">Impossível estabelecer conecção. Por favor assegure-se que você tem acesso à internet. Obrigada.</string>
+    <string name="error_login_email_get_app">Não foi possível detectar o sistema  de e-mail Padrão. Consulte sua Caixa de e-mails e verifique se há uma mensagem de Flexiroam</string>
+
+    <string name="activity_notification_detail_btnBack">❮  Notificações</string>
+
+    <string name="activity_payment_method_select">Selecione meio de pagamento</string>
+
+    <string name="activity_transactions_adapter_purchase">Comprado: %s</string>
+
+    <string name="dialog_Delete_all_title">DELETE TODOS</string>
+    <string name="dialog_Delete_all_question">Você tem certeza que quer apagar todas as mensagens?</string>
+    <string name="dialog_Delete_all_btnOk">APAGAR</string>
+
+    <string name="dialog_Delete_title">APAGAR MENSAGEM</string>
+    <string name="dialog_Delete_question">Você tem certeza que quer apagar esta mensagem? \n\n Essa ação não poderá ser revertida.</string>
+    <string name="dialog_Delete_btnOk">APAGAR</string>
+    <string name="dialog_Delete_btCancel">CANCELAR</string>
+
+    <string name="request_plan">Consulte disponibilidade</string>
+    <string name="request_btn_back">Voltar</string>
+    <string name="plan_request_failed">Falha no envio da solicitação. Por favor tente mais tarde. Obrigada \n\n Clique aqui para voltar</string>
+    <string name="plan_request_notify">Não há planos disponíveis para %s neste momento. Processaremos sua solicitação e  atualizaremos assim que disponível.</string>
+    <string name="no_plans_available_question">Viajando em breve?  Consulte planos disponíveis para %s</string>
+
+    <string name="plan_renewal_btnBack">❮  Opções de renovação de plano</string>
+    <string name="plan_renewal_options_error">Não foi possível obter opções de renovação, tente novamente mais tarde</string>
+
+    <string name="activity_no_notification_background_title">Sem notificações</string>
+    <string name="activity_no_notification_background_detail">puxe para baixo para atualizar</string>
+    <string name="txt_OR">OU</string>
+    <string name="txt_key_in_xid">Digite o código de 20 dígitos</string>
+    <string name="txt_click_to_link_starter_pack">Clique para vincular o Pacote Inicial</string>
+
+    <string name="txt_show">Mostrar</string>
+    <string name="txt_plan_history_global">Planos de Dados Globais</string>
+    <string name="txt_plan_history_country">Planos de Dados Locais</string>
+
+    <string name="txt_contact_support_question">Problema persiste?</string>
+
+    <string name="msg_status_not_connected">Não foi possível conectar. Por favor, consulte seção de auto-ajuda ou contate o suporte</string>
+    <string name="msg_status_wifi_on">Por favor desative seu WiFi para checar o status da conecção</string>
+    <string name="msg_status_countdown">Conectando... %d</string>
+
+    <string name="login">Inscreva-se / login</string>
+
+    <string name="slide_1_title">O que é Flexiroam X?</string>
+    <string name="slide_1_desc">Cole o Microchip X em seu chip (cartão SIM) para obter dados quando você viajar</string>
+
+    <string name="slide_2_title">Desbloqueie dados gratuitos</string>
+    <string name="slide_2_desc">Indique amigos e obtenha dados gratuitos para cada amigo que se junte à nós!</string>
+
+    <string name="slide_3_title">Roaming em mais de 100 países</string>
+    <string name="slide_3_desc">Com nossos 580 parceiros de telefonia no mundo</string>
+
+    <string name="slide_4_title">Explore, descubra</string>
+    <string name="slide_4_desc">Acesse as últimas promoções e ofertas de viagem</string>
+
+    <string name="about_slide1_title">Bem-Vindo!</string>
+    <string name="about_slide1_desc">Cole o Microchip X em seu chip (cartão SIM) uma única vez e nunca mais perda tempo comprando um chip diferente cada vez que viajar ou mudar de país durante a viagem</string>
+    <string name="about_slide2_desc">Alternar entre o seu Chip local e a rede Flexiroam X é muito fácil</string>
+    <string name="about_slide3_desc">Roaming em mais de 100 países a qualquer hora, em qualquer lugar com Flexiroam X</string>
+
+    <string name="payment_add_card">Informe dados do cartão</string>
+    <string name="payment_edit_save">Guardar</string>
+    <string name="payment_payment_method">❮   Meio de Pagamento</string>
+    <string name="payment_we_accept">Nós aceitamos</string>
+    <string name="payment_cc_message">Por favor, comece informando o número de seu cartão de crédiro e siga as instruções. Você nunca será debitado sem sua autorização expressa.</string>
+    <string name="payment_card_number">Número do Cartão</string>
+    <string name="payment_select_country">Escolha o País</string>
+
+    <string name="error_log_in_google">Não foi possível acessar com o Google. Por favor tente novamente mais tarde.</string>
+    <string name="error_log_in_facebook">Não foi possível acessar com o Facebook porque você não fez a veriricação com o email do Facebook</string>
+    <string name="error_log_in_facebook_no_email">Não foi possível acessar com o Facebook porque você não fez a veriricação com o email do Facebook</string>
+
+    <string name="error_name">Este campo é mandatório</string>
+    <string name="error_name_na">Este campo é mandatório. Coloque  "-" se ele não for aplicável</string>
+    <string name="error_pattern_mobile">Por favor informe um número de celular válido</string>
+    <string name="error_pattern_email">Por favor informe um email válido</string>
+    <string name="error_add_edit_card">Não foi possível adicionar/editar os dados do cartão. Por favor tente mais tarde</string>
+    <string name="error_apply_promo_code">Não foi possível aplicar o código promocional. Por favor tente mais tarde</string>
+    <string name="error_apply_referral_code">Não foi possível aplicar o código de referência. Por favor tente mais tarde</string>
+    <string name="error_membership_checkout">Não foi possível processar seu pedido. Por favor tente mais tarde</string>
+    <string name="error_apply_shipping_code">Não foi possível aplicar o frete grátis. Por favor tente mais tarde</string>
+    <string name="error_invalid_shipping_code">Por favor informe um código válido para frete grátis</string>
+    <string name="error_apply_discount_code">Não foi possível aplicar o código de desconto. Por favor tente mais tarde.</string>
+    <string name="error_invalid_discount_code">Por favor informe um código  válido de desconto</string>
+    <string name="error_remove_discount_code">Não foi possível remover o código de desconto. Por favor tente mais tarde.</string>
+    <string name="error_retrieve_saved_card">Não foi possível aplicar o meio de pagamento. Por favor tente mais tarde</string>
+    <string name="error_checkout_pay">Não foi possível processar seu pagamento. Por favor tente mais tarde</string>
+    <string name="error_select_xtra_data">Não foi possível recuperar os produtos. Por favor, tente mais tarde</string>
+    <string name="error_select_starter_pack">Não foi possível recuperar os produtos. \nPor favor, tente mais tarde</string>
+
+    <string name="error_intent_extra">Um erro inesperado aconteceu. \nPor favor tente mais tarde</string>
+
+    <string name="country_details_highlights">Destaques de %s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="fragment_account_tvReferrals">Indicações | </string>
+    <string name="fragment_account_databal">Saldo Global | </string>
+    <string name="fragment_account_getMembership">associe-se</string>
+    <string name="fragment_account_refer_friends">Indique amigos</string>
+    <string name="fragment_account_apply_ref_code">Aplique código de indicação</string>
+    <string name="fragment_account_promotions">Aplicar código promocional</string>
+    <string name="fragment_account_payment_method">Meio de pagamento</string>
+    <string name="fragment_account_transactions">Transações</string>
+    <string name="fragment_account_guide">Guia</string>
+    <string name="fragment_account_support">Suporte</string>
+    <string name="fragment_account_about">Sobre</string>
+    <string name="fragment_account_log_out">Sair</string>
+    <string name="fragment_account_valid_till">Plano global válido até</string>
+    <string name="fragment_account_membership_plan_status">Não há plano dados global</string>
+    <string name="fragment_account_plan_renewal">Renovação plano</string>
+    <string name="fragment_account_language">idioma</string>
+    <string name="fragment_account_error_cant_toggle_membership_subscription">Não conseguimos efetuar/cancelar sua associação. \nPor favor tente mais tarde</string>
+
+    <string name="fragment_coverage_travel_inspiration">Inspiração para sua viagem fornecida por TripAdvisor</string>
+
+    <string name="activity_about_version">Version %s</string>
+    <string name="activity_about_rate_us">Nos avalie na App Store</string>
+    <string name="activity_about_visit_website">Visite Flexiroam.com</string>
+    <string name="activity_about_terms">Termos e condições</string>
+    <string name="activity_about_btnBack">❮  Sobre</string>
+    <string name="activity_about_appname">Flexiroam X</string>
+    <string name="activity_about_avoid">Evite os altos custos de roaming durante suas viagens internacionais</string>
+    <string name="activity_about_solution">Flexiroam é a  solução mais moderna de roaming para que você utilize dados quando viaja</string>
+    <string name="activity_about_order">Peça um Plano Inicial com o Microchip X gratuito e use o roaming em mais de 100 países </string>
+
+    <string name="activity_apply_promo_code_details">Tem um código promocional?  Informe o código abaixo.</string>
+    <string name="activity_apply_promo_code_enter">Informe o código promocional</string>
+    <string name="activity_apply_promo_code_btn">Aplique a promoção</string>
+    <string name="activity_apply_promo_code_btnBack">❮  Promoções</string>
+
+    <string name="activity_apply_referral_btnBack">❮   Aplique código de indicação</string>
+    <string name="activity_apply_referral_enter">Informe código de indicação</string>
+    <string name="activity_apply_referral_btnApply">Apply Referral</string>
+    <string name="activity_apply_referral_code_details">Tem um código promocional?  Informe o código abaixo.</string>
+
+    <string name="activity_configure_apn_btnBack">❮   Solução de problemas</string>
+    <string name="activity_configure_apn_setting">Configurou a APN?</string>
+    <string name="activity_configure_apn_switch">Altere para Flexiroam X antes de seguir em frente!</string>
+    <string name="activity_configure_apn_step_one">Passo 1</string>
+    <string name="activity_configure_apn_step_one_details">Vá para configurações>Redes Móveis>Redes Celular>Nomes Access Point</string>
+    <string name="activity_configure_apn_step_two">Passo 2</string>
+    <string name="activity_configure_apn_step_two_details">Criar/adicionar nova APN</string>
+    <string name="activity_configure_apn_step_three">Passo 3</string>
+    <string name="activity_configure_apn_step_three_details">Digite flexiroam no campo nome e APN>Salvar</string>
+    <string name="activity_configure_apn_step_four">Passo 4</string>
+    <string name="activity_configure_apn_step_four_details">Selecione a APN flexiroam para ativá-la</string>
+
+    <string name="activity_connect_partner_network_btnBack">❮  Solução de problemas</string>
+    <string name="activity_connect_partner_network_connected">Você está conectado a rede parceira?</string>
+    <string name="activity_connect_partner_network_coverage">Por favor consulte nossa cobertura para saber a rede parceira em sua cidade destino</string>
+    <string name="activity_connect_partner_network_btnCheckCoverage">Consulte cobertura</string>
+
+    <string name="activity_country_details_btnBack">❮  Cobertura</string>
+    <string name="activity_country_details_name">Nome País</string>
+    <string name="activity_country_details_highlights">Dicas sobre</string>
+    <string name="activity_country_details_tripadvisor">Em parceria com TripAdvisor</string>
+
+    <string name="activity_data_usage_examples_data">DADOS</string>
+    <string name="activity_data_usage_examples_approximate">* Exemplo de uso de dados. Seu consumo pessoal poderá ser diferente</string>
+    <string name="activity_data_usage_examples_btnBack">❮  Explos de uso de dados</string>
+
+    <string name="activity_get_starter_pack_select_btnBack">❮  Solicite pacote inicial</string>
+    <string name="activity_get_starter_pack_select_btnProceed">Prosseguir</string>
+
+    <string name="activity_get_starter_pack_shipping_add">Informe endereço para entrega</string>
+    <string name="activity_get_starter_pack_shipping_code">Aplique código de frete grátis</string>
+    <string name="activity_get_starter_pack_shipping_code_enter">Informe código</string>
+    <string name="activity_get_starter_pack_shipping_code_error">Erro</string>
+    <string name="activity_get_starter_pack_shipping_shipping">Entrega</string>
+    <string name="activity_get_starter_pack_shipping_btnApplyCode">Aplicar código</string>
+    <string name="activity_get_starter_pack_shipping_not_required">Entrega  não necessária</string>
+    <string name="activity_get_starter_pack_shipping_etName">Nome</string>
+    <string name="activity_get_starter_pack_shipping_etAddress1">Endereço</string>
+    <string name="activity_get_starter_pack_shipping_etAddress2">Endereço</string>
+    <string name="activity_get_starter_pack_shipping_etCity">Cidade</string>
+    <string name="activity_get_starter_pack_shipping_etState">Estado</string>
+    <string name="activity_get_starter_pack_shipping_etPostCode">CEP</string>
+    <string name="activity_get_starter_pack_shipping_select_country">Selecione País</string>
+    <string name="activity_get_starter_pack_shipping_etMobileNumber">Número do celular</string>
+    <string name="activity_get_starter_pack_shipping_btnNext">Próximo</string>
+    <string name="activity_get_starter_pack_shipping_btnBack">❮  Solicite Pacote Inicial</string>
+    <string name="activity_get_starter_pack_shipping_note">Não enviamos para caixas postais. Informe endereço para entrega</string>
+
+    <string name="activity_get_xtra_data_select_btnBack">❮  Atualize seu plano</string>
+
+    <string name="activity_guide_stick_microchip">Cole o microchip</string>
+    <string name="activity_guide_stick_microchip_details">Como aplicar o microchip em seu Chip atual</string>
+    <string name="activity_guide_switchsim">Alterne para Flexiroam X</string>
+    <string name="activity_guide_switchSim_details">Quando viajar</string>
+    <string name="activity_guide_stick_microchip_mins">2 minutos</string>
+    <string name="activity_guide_switchSim_mins">1 minuto</string>
+    <string name="activity_guide_btnBack">❮  Guia</string>
+    <string name="activity_guide_setup_first_time">Primeira configuração</string>
+    <string name="activity_guide_setup_configure">Configure a APN</string>
+    <string name="activity_guide_setup_mins">2 minutos</string>
+    <string name="activity_guide_switchsim_return">Quando voltar para casa</string>
+    <string name="activity_guide_switchsim_home">Alterne novamente para o seu Chip atual</string>
+
+    <string name="activity_help_center_btnBack">❮  Centro de Ajuda</string>
+    <string name="activity_help_center_faq">Perguntas Frequentes</string>
+    <string name="activity_help_center_support">Suporte</string>
+    <string name="activity_help_center_configure">Guia de configuração de APN</string>
+    <string name="activity_help_center_terms">Termos e Condições</string>
+
+    <string name="activity_login_login">Inscreva-se / login</string>
+    <string name="activity_login_agree">Se inscrevendo ou se logando, você concorda com  os</string>
+
+    <string name="activity_login_country_question">De onde você é?</string>
+    <string name="activity_login_country_btnContinue">Continuar</string>
+
+    <string name="activity_login_email_login">Inscreva-se / login com email</string>
+    <string name="activity_login_email_btnLoginContinue">Continuar</string>
+    <string name="activity_login_email_agree">Se inscrevendo ou se logando, você concorda com  os Termos de Serviço e Política de Privacidade da Flexiroam</string>
+    <string name="activity_login_email_hint">email</string>
+
+    <string name="activity_login_mobile_login">Login com número de celular</string>
+    <string name="activity_login_mobile_forgot">Esqueceu a senha?</string>
+    <string name="activity_login_mobile_btnContinue">Login</string>
+
+    <string name="activity_login_mobile_forgot_pwd_title">Esqueceu a senha?</string>
+    <string name="activity_login_mobile_forgot_pwd_btnContinue">Solicite SMS para nova senha</string>
+
+    <string name="activity_login_name_question">Informe seu nome</string>
+    <string name="activity_login_name_btnContinue">Continuar</string>
+
+    <string name="activity_notifications_btnBack">❮  Notificações</string>
+
+    <string name="activity_onboarding_welcome">Bem-Vindo!</string>
+    <string name="activity_onboarding_started">Aqui você tem 100MB para começar a usar</string>
+    <string name="activity_onboarding_btnOK">OK</string>
+
+    <string name="activity_order_payment_card">Seu cartão</string>
+    <string name="activity_order_payment_total">Total</string>
+    <string name="activity_order_payment_btnYourCard">Editar</string>
+    <string name="activity_order_payment_btnNewCardBack">Voltar</string>
+    <string name="activity_order_payment_btnNext">Confirme o pagamento</string>
+    <string name="activity_order_payment_btnBack">❮  Pagamento</string>
+
+    <string name="activity_payment_method_btnBack">❮  Meio de pagamento</string>
+    <string name="activity_payment_method_yourcard">Seu cartão</string>
+    <string name="activity_payment_method_btnEdit">Editar</string>
+
+    <string name="activity_refer_friends_24_title">Desafio obtenha 1GB de dados gratuitos</string>
+    <string name="activity_refer_friends_24_details">Indique 5 amigos para se inscrever e ganhe 1GB gratis!  Seus amigos ganharão 100MB gratuitos também</string>
+    <string name="activity_refer_friends_24_time_left_to_unlock">Tempo restante para desbloquear</string>
+    <string name="activity_refer_friends_24_friends_signed_up">Amigos inscritos</string>
+    <string name="activity_refer_friends_24_btnReferFriends">indique amigos</string>
+    <string name="activity_refer_friends_24_copypaste">ou copie e cole seu link em qualquer local</string>
+    <string name="activity_refer_friends_24_btnBack">❮  Ganhe Dados gratuitos</string>
+    <string name="activity_refer_friends_24_claim">Solicite 400MB em --:--:--</string>
+    <string name="activity_refer_friends_24_tvBtnTitle">Solicite 400MB gratuitos</string>
+    <string name="activity_refer_friends_24_tip">Dica: continue a ganhar 100NB gratuitos para cada amigo que efetuar o download e se inscrever</string>
+    <string name="activity_refer_friends_24_btnCopy">Copiar</string>
+
+    <string name="activity_refer_friends_normal_refer">Indique amigos para se inscrever fom % de dados grátis para cada um!</string>
+    <string name="activity_refer_friends_normal_description">Seu amigo ganhara % grátis também!</string>
+    <string name="activity_refer_friends_normal_refer_friends">Indique amigos</string>
+    <string name="activity_refer_friends_normal_copy">ou copie e cole seu link em qualquer lugar</string>
+    <string name="activity_refer_friends_normal_btnCopy">Copiar</string>
+    <string name="activity_refer_friends_normal_btnReferralHistory">Consulte histórico de indicação</string>
+    <string name="activity_refer_friends_normal_btnBack">❮  Indique amigos</string>
+
+    <string name="activity_referral_title">Dados grátis!</string>
+    <string name="activity_referral_details">Indique amigos para fazer download do aplicativo para ganhar 100MB cada!</string>
+    <string name="activity_referral_share_link">Compartihe link de indicação</string>
+    <string name="activity_referral_details_two">You and your friend will both receive 100mb each when they download and sign up with your referral link.</string>
+    <string name="activity_referral_skip">Pular</string>
+    <string name="activity_referral_copy">Copiar</string>
+
+    <string name="activity_referral_history_total">Total de dados grátis ganho através de indicações</string>
+    <string name="activity_referral_history_btnBack">❮  Histórico de indicações</string>
+
+    <string name="activity_scanner_onceyouvereceived">Assim que receber seu pacote inicial</string>
+    <string name="activity_scanner_btnScan">Escaneie o código para vincular o pacote inicial</string>
+    <string name="activity_scanner_btnBack">❮  Vincular pacote inicial</string>
+
+    <string name="activity_signal_strength_good_signal">Você está com um bom sinal de rede celular?</string>
+    <string name="activity_signal_strength_ensure">Tenha certeza que você está com um bom sinal de rede</string>
+    <string name="activity_signal_strength_stay">Permanecendo dentro de ambientes fechados  ou em subsolo seu sinal de rede móvel pode não ficar acessivel.;</string>
+
+    <string name="activity_support_btnBack">❮  Suporte</string>
+    <string name="activity_support_letusknow">Conte para a gente</string>
+    <string name="activity_support_hint">Por favor detalhe o problema</string>
+    <string name="activity_support_taptoattachimage">Toque para adicionar a imagem (opcional)</string>
+    <string name="activity_support_btnSubmit">Enviar email para o time de suporte</string>
+    <string name="activity_support_alternate">Você também pode entrar em contato com nosso time de suporte via WhatsApp</string>
+
+    <string name="activity_supported_country_btnBack">	❮  Central de Soluções</string>
+    <string name="activity_supported_country_question">Você está em um pais coberto pelo Flexiroam?</string>
+    <string name="activity_supported_country_check">Por favor consulte nossa cobertura para verificar os países aonde você poderá usar o Flexiroam</string>
+    <string name="activity_supported_country_btnCheckCoverage">Consulte cobertura</string>
+
+    <string name="activity_switch_network_btnBack">❮  Central de Soluções</string>
+    <string name="activity_switch_network_switch">Alterne para Flexiroam X</string>
+    <string name="activity_switch_network_step_one">	Passo 1</string>
+    <string name="activity_switch_network_step_one_a">Primeiro, cheque se você alternou para a rede Flexiroam X na configuração</string>
+    <string name="activity_switch_network_step_one_b">Clique para ir para configuração Chip</string>
+    <string name="activity_switch_network_step_one_c">Se o botão acima não funcionar, você poderá acessar instruções sobre configuração do chip em seu  APP Drawer</string>
+    <string name="activity_switch_network_step_two">Passo 2</string>
+    <string name="activity_switch_network_step_two_detail">Clique em Flexiroam X kit >Alternar Chip > Flexiroam X</string>
+    <string name="activity_switch_network_step_three">Passo 3</string>
+    <string name="activity_switch_network_step_three_detail">Reinicialize seu telefone para processar as alterações</string>
+
+    <string name="activity_switch_off_wifi_btnBack">❮  Central de Soluções</string>
+    <string name="activity_switch_off_wifi_question">Você desabilitou  o Wi-Fi?</string>
+    <string name="activity_switch_off_wifi_turn_off">Desabilite o Wi-Fi para acessar dados via rede FlexiroamX e não via Wi-Fi</string>
+    <string name="activity_switch_off_wifi_connected">Não poderemos indicar se você está conectado às nossas redes se o Wi-Fi estiver ligado e conectado.</string>
+
+    <string name="activity_terms_btnBack">❮  Termos e Condições</string>
+
+    <string name="activity_get_starter_pack_summary_title">Resumo do Pedido</string>
+    <string name="activity_get_starter_pack_summary_shipping_title">Entrega</string>
+    <string name="activity_get_starter_pack_summary_shipping_code">Nenhum código informado</string>
+    <string name="activity_get_starter_pack_summary_shipping_to">para %s</string>
+    <string name="activity_get_starter_pack_summary_shipping_code_applied">Entrega  não necessária</string>
+    <string name="activity_get_starter_pack_summary_address_title">Endereço</string>
+    <string name="activity_get_starter_pack_summary_address_edit">Editar</string>
+    <string name="activity_get_starter_pack_summary_subtotal_title">Subtotal</string>
+    <string name="activity_get_starter_pack_summary_discount_title">Desconto</string>
+    <string name="activity_get_starter_pack_summary_btnApplyDiscount">Aplicar desconto</string>
+    <string name="activity_get_starter_pack_summary_btnRemoveDiscount">Remover</string>
+    <string name="activity_get_starter_pack_summary_total_title">Total</string>
+    <string name="activity_get_starter_pack_summary_btnConfirmOrder">Confirme pedido</string>
+    <string name="activity_get_starter_pack_summary_btnBack">❮  Resumo do pedido</string>
+
+    <string name="activity_track_order_title">Acompanhe seu pedido</string>
+    <string name="activity_track_order_details">Status do Pedido e da entrega</string>
+    <string name="activity_track_order_invoice_no">Fatura no.:</string>
+    <string name="activity_track_order_trackingCodeTitle">Codigo de acompanhamento:</string>
+    <string name="activity_track_order_trackingStatusTitle">Status de entrega:</string>
+    <string name="activity_track_order_btnCheckStatus">Consulte status</string>
+    <string name="activity_track_order_btnBack">❮  Acompanhe o pedido</string>
+    <string name="activity_track_order_addressTitle">Endereço:</string>
+
+    <string name="activity_transactions_btnBack">❮  Transações</string>
+
+    <string name="activity_troubleshooting_btnBack">❮  Central de Soluções</string>
+    <string name="activity_troubleshooting_check_list">Se você não está conseguindo se concectar a rede, \npor favor cheque os pontos abaixo:</string>
+    <string name="activity_troubleshooting_switch">Alterne para Flexiroam X</string>
+    <string name="activity_troubleshooting_configure">Configurou a APN?</string>
+    <string name="activity_troubleshooting_data">Desanilie dados móveis e roaming de dados</string>
+    <string name="activity_troubleshooting_off_wifi">Você desabilitou o Wi-Fi?</string>
+    <string name="activity_troubleshooting_signal">Você está com um bom sinal de rede celular?</string>
+    <string name="activity_troubleshooting_connected">Você está conectada a uma rede parceira?</string>
+    <string name="activity_troubleshooting_supported">Você está em um país coberto pelo Flexiroam?</string>
+    <string name="activity_troubleshooting_check_list_title">Check list</string>
+
+    <string name="activity_turn_on_data_btnBack">❮  Central de Soluções</string>
+    <string name="activity_turn_on_data_question">Desabilie dados móveis e roaming de dados</string>
+    <string name="activity_turn_on_data_switch">Alterne para Flexiroam X antes de seguir em frente!</string>
+    <string name="activity_turn_on_data_step_one">Passo 1</string>
+    <string name="activity_turn_on_data_step_one_detail">Vá para configurações > Redes Moveis > Redes Celular</string>
+    <string name="activity_turn_on_data_step_two">Step 2</string>	Passo 2
+    <string name="activity_turn_on_data_step_two_detail">Habilite dados móves e roaming de dados</string>
+
+    <string name="activity_order_payment_cardForm_action">Próximo</string>
+
+    <string name="activity_unlock_connect_with_fb_get_data">Ganhe %s de dados gratuito!</string>
+    <string name="activity_unlock_connect_with_fb_connect">Conecte-se com o Facebook para ganhar %s</string>
+    <string name="activity_unlock_connect_with_fb_btnBack">❮  Desbloqueie dados gratuitos</string>
+
+    <string name="activity_web_view_btnBack">❮  Guias</string>
+
+    <string name="dialog_apply_code_discount_title">Aplicar código de desconto</string>
+    <string name="dialog_apply_code_discount_question">Você tem um código de desconto?</string>
+    <string name="dialog_apply_code_discount_error">Erro</string>
+    <string name="dialog_apply_code_discount_btnCancel">Cancelar</string>
+    <string name="dialog_apply_code_discount_btnApply">Aplicar</string>
+
+    <string name="dialog_apply_code_shipping_btnCancel">Cancelar</string>
+    <string name="dialog_apply_code_shipping_btnApply">Aplicar</string>
+
+    <string name="dialog_check_email_title">Cheque seu email</string>
+    <string name="dialog_check_email_click">e clique no link enviado para login</string>
+    <string name="dialog_check_email_not_received">Não recebeu o email?</string>
+    <string name="dialog_check_email_resend">Reenviar Link</string>
+    <string name="dialog_check_email_btnOpenMail">Abra Mail App</string>
+
+    <string name="dialog_check_sms_title">Encaminhamos um SMS para</string>
+    <string name="dialog_check_sms_click">Clique no link enviado no SMS para login</string>
+    <string name="dialog_check_sms_not_received">Não recebeu o SMS?</string>
+    <string name="dialog_check_sms_resend">Reenviar SMS</string>
+    <string name="dialog_check_sms_btnOpenSMS">Abrir SMS</string>
+
+    <string name="dialog_data_added_notice">Dados adicionados!</string>
+    <string name="dialog_data_added_thank">Obrigada por se conectar pelo Facebook</string>
+    <string name="dialog_data_added_earned">Dados gratuitos ganhos</string>
+    <string name="dialog_data_added_your_balance">Seu saldo</string>
+    <string name="dialog_data_added_btnOK">OK</string>
+
+    <string name="dialog_force_update_available">Nova versão disponível</string>
+    <string name="dialog_force_update_please_update">Por favor atualize para a última versão de Flexiroam X</string>
+    <string name="dialog_force_update_btnOK">Ok</string>
+
+    <string name="dialog_leave_page_title">Sai da página</string>
+    <string name="dialog_leave_page_question">Você tem certeza que quer sair desta página?  Seus detalhes não serão salvos.</string>
+    <string name="dialog_leave_page_btnOK">OK</string>
+    <string name="dialog_leave_page_btnCancel">Cancelar</string>
+
+    <string name="dialog_logout_confirm_title">Sair</string>
+    <string name="dialog_logout_confirm_question">Você tem certeza que quer sair?</string>
+    <string name="dialog_logout_confirm_btnOK">Sair</string>
+    <string name="dialog_logout_confirm_btnCancel">Cancelar</string>
+
+    <string name="dialog_notification_btnNotificationOk">OK</string>
+
+    <string name="dialog_order_success_thank_you">Obrigado</string>
+    <string name="dialog_order_success_for_your_purchase">por sua compra</string>
+    <string name="dialog_order_success_msg">Uma copia da nota foi encaminhada para seu email</string>
+    <string name="dialog_order_success_invoice_no">Nota no:&#160;</string>
+    <string name="dialog_order_success_address">Endereço</string>
+    <string name="dialog_order_success_ok">OK</string>
+
+    <string name="dialog_refer_glossary_btnOk">OK</string>
+
+    <string name="dialog_status_whygetpack_access">Para acessar e usar dados na rede Flexiroam X em mais de 100 países, você precisa adquitir um Pacote inicial que inclua o microchip X</string>
+    <string name="dialog_status_whygetpack_attach">Então cole o MicrochipX em seu Chip atual para começar a utilizar o roaming Flexiroam</string>
+    <string name="dialog_status_whygetpack_btnOk">OK</string>
+
+    <string name="dialog_support_sent_title">Solicitação de suporte encaminhada</string>
+    <string name="dialog_support_sent_btnOk">OK</string>
+
+    <string name="dialog_unsubscribe_confirm_title">Para Renovação de Plano?</string>
+    <string name="dialog_unsubscribe_confirm_detail">Se você continuar, a renovação automática do plano de dados Flexiroam X será cancelada. Você perderá o eventual saldo de dados quando o plano expirar.</string>
+    <string name="dialog_unsubscribe_confirm_proceed">Prosseguir</string>
+    <string name="dialog_unsubscribe_confirm_cancel">Cancelar</string>
+
+    <string name="fragment_call_dial">digitar</string>
+    <string name="fragment_call_contacts">Contatos</string>
+    <string name="fragment_call_history">Histórico</string>
+
+    <string name="fragment_contacts_unable">Não foi possível acessar contatos devido a não termos autorização</string>
+    <string name="fragment_contacts_search">Procure contatos</string>
+
+    <string name="fragment_dial_btnAddCallerID">Adicione sua identificação para chamadas</string>
+
+    <string name="fragment_dial_rate">Preço: </string>
+    <string name="fragment_dial_selectcountry">selecione País</string>
+    <string name="fragment_dial_error_unable_to_retrieve">Não foi possível recurar as taxas da chamada para o país selecionado</string>
+    <string name="fragment_dial_error_select_country">Por favor certifique-se que tenha selecionada um país e um número válido de telefone para fazer a chamada</string>
+    <string name="fragment_dial_proceed_at">prossiga para %s</string>
+
+    <string name="fragment_home_howtousefreedata">Como uso meus dados grátis?</string>
+
+    <string name="fragment_status_not_connected">Não conectado</string>
+    <string name="fragment_status_carrier">Parceiro</string>
+    <string name="fragment_status_country">País</string>
+    <string name="fragment_status_switch_flexiroam">Alterne para Flexiroam X</string>
+    <string name="fragment_status_troubleshooting">Central de Soluções</string>
+    <string name="fragment_status_contact_support">Contato do Suporte</string>
+    <string name="fragment_status_switch_home">Alterne de volta para seu CHIP usual</string>
+    <string name="fragment_status_note">Você não está acessível em seu CHIP usual enquanto alternava para FLexiroamX</string>
+    <string name="fragment_status_get_pack">Adquira o Pacote inicial e use dados grátis</string>
+    <string name="fragment_status_how">Como funciona?</string>
+    <string name="fragment_status_get_starter_pack">Adquira Pacote inicial</string>
+    <string name="fragment_status_already">Você já tem um pacote inicial?</string>
+    <string name="fragment_status_link_starter_pack">Vincular o Pacote Inicial</string>
+    <string name="fragment_status_once_received">Assim que você receber o Pacote Inicial</string>
+    <string name="fragment_status_switch_sim">Alterne o Chip</string>
+    <string name="fragment_status_configure">Configure APN</string>
+    <string name="fragment_status_pull">Deslize para baixo para atualizar</string>
+
+    <string name="list_item_call_history_no_answer">Sem resposta</string>
+
+    <string name="list_item_tripadvisor_highlights_rating">Preço:</string>
+    <string name="list_item_tripadvisor_highlights_type">Tipe:</string>
+    <string name="list_item_tripadvisor_highlights_award">Sem premiação</string>
+
+    <string name="error_undetected_browser">Não foi  possível detectar  navegador Web padrão. Visite www.flexiroam.com para mais informações</string>
+    <string name="dialog_select_country_title">País</string>
+    <string name="dialog_select_country_desc">Por favor selecione o pais que você quer chamar</string>
+    <string name="dialog_select_country_btnProceed">Prosseguir</string>
+    <string name="activity_call_verify_mobile_btnBack">❮   Adicione seu identificador de chamador</string>
+
+    <string name="activity_hint_mobile">Número de celular</string>
+    <string name="activity_hint_password">Senha</string>
+    <string name="activity_hint_first_name">Primeiro Nome</string>
+    <string name="activity_hint_last_name">Sobrenome</string>
+    <string name="activity_about_faq">Perguntas Frequentes</string>
+
+    <string name="dialog_trial_plan_usage_title">O que você consegue fazer com seu Plano Inicial</string>
+    <string name="dialog_trial_plan_usage_needmoredata">Necessita de mais dados?  Experimente o plano completo</string>
+
+    <!--Cards-->
+    <string name="cards_get_extra_data">Adquira Planos de Dados</string>
+    <string name="cards_load_data_balance_question">Saldo de Dados baixo?</string>
+    <string name="cards_load_data_balance_question2">Saldo de dados baixo? Adquira mais dados para usar durante suas viagens</string>
+    <string name="cards_data_usage_example">Exemplo de utilização</string>
+
+    <string name="cards_data_usage_question">O que consigo fazer com meus dados?</string>
+    <string name="cards_check_now">Veja agora</string>
+
+    <string name="cards_track_your_order">Acompanhe seu pedido</string>
+    <string name="cards_shipping_and_order_status">Status do pedido e remessa</string>
+
+    <string name="cards_get_free_data">Ganhe dados grátis</string>
+
+    <string name="cards_get_starter_pack_text">e utilize o roaming em mais de 100 países</string>
+    <string name="cards_buy_now">Compre já</string>
+
+    <string name="cards_start_roaming">Comece a fazer roaming agora</string>
+    <string name="cards_free_x_chip_msg">Pacote Inicial inclui Microchip X gratuito</string>
+
+    <string name="cards_link_starter_pack_question">Recebeu seu Pacote Inicial?</string>
+
+    <string name="cards_upgrade_plan">Aprimore sua experiência</string>
+    <string name="cards_upgrade_plan_text">Desfrute de acesso abrangente atualizando para um plano competo</string>
+
+    <string name="cards_guide">Como usar?</string>
+    <string name="cards_guide_text">"Leia o guia aqui</string>
+    <string name="cards_steps_by_step_guide">Guia passo-a-passo</string>
+
+    <string name="cards_100mb_on_signUp">100MB a cada amigo inscrito</string>
+
+    <string name="cards_verify_email_text">Verifique seu email para completar seu cadastro</string>
+    <string name="cards_verify_email">Verifique email</string>
+
+    <string name="cards_connect_to_fb">Conecte-se via Facebook e ganhe dados grátis</string>
+
+    <string name="cards_special_offer">Ofertas Especiais</string>
+    <string name="cards_special_offer_msg">Compre planos de dados para uso em países selectionados a um preço irresisrível</string>
+
+    <string name="data_usage_message">* Exemplos aproximados de uso de dados mostrados acima, seu uso pessoal pode diferir.";</string>
+
+    <string name="data_usage_ins_msg">Mensagens Instantâneas \n(somente texto)</string>
+    <string name="data_usage_email">Email \n(enviar/receber)</string>
+    <string name="data_usage_photo">upload de fotos nas redes sociais</string>
+    <string name="data_usage_voice_call">Chamadas de voz pela internet</string>
+    <string name="data_usage_map">Navegação em mapas</string>
+    <string name="data_usage_web">Navegação internet</string>
+
+    <string name="cards_link_starter_pack">Vincular Plano Inicial</string>
+
+    <string name="cards_1gb_free_data">1GB de dados gratis</string>
+    <string name="cards_refer_5_friends">Recomende 5 amigos para se inscrever e ganhe 1 GB de dados gratuito</string>
+    <string name="cards_get_starter_pack">Obter Plano Inicial</string>
+    <string name="cards_check_status">Checar status</string>
+
+    <string name="data_usage_trial_bt">Atualize agora</string>
+
+    <string name="data_usage_oneGb_title">O que você consegue fazer com 1GB de dados?</string>
+    <string name="data_usage_oneGb_getPack_msg">Obter Plano Inicial para roaming</string>
+    <string name="data_usage_oneGb_getPack_bt">Obter Plano Inicial</string>
+    <string name="data_usage_oneGb_xtra_msg">Precisa de mais dados?</string>
+    <string name="data_usage_oneGb_xtra_bt">Obtenha dados Xtra</string>
+
+    <string name="activity_call_connect_connecting">Conectando ....</string>
+
+    <string name="txt_hot">Hot!</string>
+    <string name="msg_try_again">Tentar novamente...</string>
+
+    <string name="cards_get_more_data">Solicite + dados</string>
+
+    <string name="data_usage_ins_mess_trial_val" >~ 50mil</string>
+    <string name="data_usage_email_trial_val" >~ 550</string>
+    <string name="data_usage_photo_trial_val" >~ 200</string>
+    <string name="data_usage_voice_call_trial_val" >~ 30min</string>
+    <string name="data_usage_web_trial_val" >~ 1hora</string>
+    <string name="data_usage_map_trial_val" >~ 5horas</string>
+
+    <string name="data_usage_ins_mess_fiveHundredMb_val" >~ 250mil</string>
+    <string name="data_usage_email_fiveHundredMb_val" >~ 2.750</string>
+    <string name="data_usage_photo_fiveHundredMb_val" >~ 1Mil</string>
+    <string name="data_usage_voice_call_fiveHundredMb_val" >~ 150min</string>
+    <string name="data_usage_web_fiveHundredMb_val" >~ 5horas</string>
+    <string name="data_usage_map_fiveHundredMb_val" >~ 25horas</string>
+
+    <string name="data_usage_ins_mess_oneGb_val" >~ 500mil</string>
+    <string name="data_usage_email_oneGb_val" >~ 5.500</string>
+    <string name="data_usage_photo_oneGb_val" >~ 2Mil</string>
+    <string name="data_usage_voice_call_oneGb_val" >~ 300min</string>
+    <string name="data_usage_web_oneGb_val" >~ 10horas</string>
+    <string name="data_usage_map_oneGb_val" >~ 50horas</string>
+
+    <string name="data_usage_ins_mess_threeGb_val" >~ 1.5milhões</string>
+    <string name="data_usage_email_threeGb_val" >~ 16.500</string>
+    <string name="data_usage_photo_threeGb_val" >~ 6Mil</string>
+    <string name="data_usage_voice_call_threeGb_val" >~ 15horas</string>
+    <string name="data_usage_web_threeGb_val" >~ 30horas</string>
+    <string name="data_usage_map_threeGb_val" >~ 150horas</string>
+
+
+
+    <!--3.3.5 not transated properly!-->
+
+    <string name = "activity_resetpassword_hint_new_password"> Nova Senha </string>
+    <string name = "activity_resetpassword_hint_confirm_password"> Confirmar senha </string>
+    <string name = "activity_resetpassword_confirm_password_not_match_msg"> Suas senhas não correspondem. </string>
+    <string name = "activity_resetpassword_system_error_msg"> Não foi possível reiniciar a senha. Tente novamente. </string>
+    <string name = "activity_resetpassword_new_password_msg"> Digite a senha </string>
+    <string name = "activity_resetpassword_confirm_password_msg"> Digite confirmar senha </string>
+    <string name = "activity_resetpassword_new_password_length_msg"> Sua senha deve ter entre 6 e 15 caracteres. </string>
+    <string name = "msg_wait"> Aguarde! </string>
+    <string name = "msg_status_offline"> Você está offline, certifique-se de ter mudado para Flexiroam X </string>
+    <string name = "msg_back_to_exit"> Pressione novamente para sair do aplicativo </string>
+    <string name = "msg_login_expired"> Link de login expirado </string>
+    <string name = "msg_token_error"> Erro ao verificar o token de login </string>
+    <string name = "txt_reset_pass_login"> Não restabeleça a senha agora </string>
+    <string name = "msg_status_mobile_data_off"> Por favor, ative seus dados móveis para verificar o status da conexão </string> 
+    <string name = "msg_status_data_roaming_off"> Por favor, ligue o seu roaming de dados para verificar o status da conexão </string>
+    <string name = "error_change_language"> Não é possível alterar o seu idioma. Tente novamente </string>
+        
+    
+    <string name = "fragment_account_changepass"> Alterar senha </string>
+    <string name = "activity_reset_password"> Definir sua senha </string>
+    <string name = "fragment_history_no"> Atualmente, você não possui histórico de chamadas. \ nSigue para baixo para atualizar. </string>
+    <string name = "fragment_challenge_about_slide3"> DESLOCAR DADOS LIVRES </string>
+    <string name = "fragment_challenge_about_slide3_desc"> Parabéns! Você ter desbloqueado 1GB de GRAÇA DE DADOS! Continue a consultar ainda mais amigos para desbloquear ainda mais DADOS GRATUITOS! </string>
+    <string name = "msg_validate_email_error"> Não foi possível validar seu endereço de e-mail. Tente novamente </string>
+    <string name = "btn_reset_pass_login"> Conecte-me </string>
+
+    <string name = "btn_setPermission"> Ativar permissão </string>
+    <string name = "error_phone_permission_request"> Por favor, habilite a permissão do telefone manualmente ou envie um email para nossa equipe de suporte em support@flexiroam.com ou WhatsApp em +6019 291 2692 </string>
+    <string name = "error_mismatch_country_prefix"> O prefixo do país selecionado não corresponde ao prefixo do contato selecionado. \nPor favor, selecione o país certo </string>
+    <string name = "error_select_country"> Por favor, selecione um país para prosseguir. </string>
+
+    <string name = "tv_saved_cards"> Cartões salvos </string>
+    <string name = "tv_other_payment"> Outros métodos de pagamento </string>
+    <string name = "tv_credit_debit_card"> cartão de crédito / débito </string>
+
+    <string name = "tv_default"> padrão </string>
+    <string name = "tv_set_default"> Definir padrão </string>
+
+    <string name = "txt_changing_language"> Alterando idioma. . . </string>
+
+    <string name = "toast_please_select_payment_method"> Por favor, selecione um método de pagamento para continuar </string>
+
+    <string name = "error_invalid_card"> Cartão inválido </string>
+    <string name = "error_payment_failed"> Falha ao processar o pagamento, tente novamente mais tarde </string>
+    <string name = "error_authorize_card"> Falha ao autorizar o cartão, tente novamente mais tarde </string>
+    <string name = "error_payment_response"> Falha ao recuperar resposta do servidor, verifique seu email para confirmação antes de tentar novamente o pagamento. Obrigado </string>
+
+    <string name = "msg_status_verifying_card"> Verificando o cartão ... </string>
+    <string name = "msg_status_authorizing"> Inicializando a autorização do cartão ... </string>
+    <string name = "msg_status_redirecting"> Redirecionando ... </string>
+    <string name = "msg_status_processing_payment"> Processando o pagamento ... </string>
+    <string name = "msg_confirm_payment_title"> Confirmar pagamento </string>
+    <string name = "msg_confirm_payment"> Deseja continuar?</string>
+    <string name="msg_confirm_payment_with_saved_card">Deseja continuar ? \ncartão: %s</string>
+    <string name = "msg_confirm_payment_with_card"> Digite os detalhes do cartão para continuar </string>
+    <string name = "msg_confirm_payment_with_redirect"> Deseja continuar? \nVocê será redirecionado para um aplicativo do navegador para continuar o pagamento </string>
+    <string name = "label_pay"> Pagar </string>
+
+
+    <string name = "error_add_email"> Não é possível adicionar seu e-mail. \nPor favor, tente novamente mais tarde. </string>
+    <string name = "error_update_name"> Não foi possível atualizar seu nome. \nPor favor tente novamente. </string>
+    <string name = "error_update_country"> Não foi possível atualizar seu país. \nPor favor tente novamente. </string>
+    <string name = "error_cant_save_threeD_card"> Desculpe, este cartão requer autenticação manual, portanto, não pode ser usado para pagamentos automatizados. \nPor favor, salve outro cartão ou contate suporte para obter mais informações. Obrigado </string>
+
+    <string name = "dialog_delete_card_title"> excluir o cartão</string>
+    <string name = "dialog_delete_card_question"> Tem certeza de que deseja \nde excluir este cartão?\n \nEsta ação não pode ser revertida. </string>
+
+    <string name = "msg_default_card"> * O cartão padrão seria usado para cobranças de renovação automática se você se inscreveu para uma renovação automática </string>
+    
+    <string name = "dialog_save_card_title"> Confirmar Salvar o Cartão </string>
+    <string name = "dialog_save_card_question"> Deseja salvar este cartão?</string>
+    <string name = "tv_yes"> Sim </string>
+    <string name = "tv_no"> No </string>
+    
+    <!--3.3.5!-->
+
+    <!--3.3.6-->
+    <string name="dialog_add_email_support_title">Please provide your e-mail below</string>
+    <string name="dialog_add_email_support_btnOK">OK</string>
+    <string name="dialog_add_email_support_btnCancel">CANCEL</string>
+    <string name="dialog_add_email_support_enter">Enter email</string>
+    <string name="dialog_add_email_support_error">Invalid email</string>
+
+</resources>
